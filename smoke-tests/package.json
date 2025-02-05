@@ -22,7 +22,7 @@
     "@npmcli/eslint-config": "^5.0.1",
     "@npmcli/mock-registry": "^1.0.0",
     "@npmcli/promise-spawn": "^8.0.1",
-    "@npmcli/template-oss": "4.23.6",
+    "@npmcli/template-oss": "4.24.1",
     "proxy": "^2.1.1",
     "tap": "^21.0.1",
     "which": "^5.0.0"
@@ -38,11 +38,7 @@
     "no-coverage": true,
     "timeout": 600,
     "jobs": 1,
-    "test-ignore": "fixtures/*",
-    "nyc-arg": [
-      "--exclude",
-      "tap-snapshots/**"
-    ]
+    "show-full-coverage": true
   },
   "files": [
     "bin/",
@@ -50,5 +46,8 @@
   ],
   "engines": {
     "node": "^20.17.0 || >=22.9.0"
+  },
+  "nyc": {
+    "exclude": []
   }
 }

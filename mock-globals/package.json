@@ -43,14 +43,14 @@
     "functions": 97,
     "lines": 97,
     "statements": 97,
-    "nyc-arg": [
-      "--exclude",
-      "tap-snapshots/**"
-    ]
+    "show-full-coverage": true
   },
   "devDependencies": {
     "@npmcli/eslint-config": "^5.0.1",
-    "@npmcli/template-oss": "4.23.6",
+    "@npmcli/template-oss": "4.24.1",
     "tap": "^21.0.1"
+  },
+  "nyc": {
+    "exclude": []
   }
 }

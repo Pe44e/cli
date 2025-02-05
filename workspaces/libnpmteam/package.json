@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@npmcli/eslint-config": "^5.0.1",
-    "@npmcli/template-oss": "4.23.6",
+    "@npmcli/template-oss": "4.24.1",
     "nock": "^13.3.3",
     "tap": "^21.0.1"
   },
@@ -44,9 +44,9 @@
     "content": "../../scripts/template-oss/index.js"
   },
   "tap": {
-    "nyc-arg": [
-      "--exclude",
-      "tap-snapshots/**"
-    ]
+    "show-full-coverage": true
+  },
+  "nyc": {
+    "exclude": []
   }
 }

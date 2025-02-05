@@ -41,7 +41,7 @@
   "devDependencies": {
     "@npmcli/eslint-config": "^5.0.1",
     "@npmcli/mock-registry": "^1.0.0",
-    "@npmcli/template-oss": "4.23.6",
+    "@npmcli/template-oss": "4.24.1",
     "benchmark": "^2.1.4",
     "minify-registry-metadata": "^4.0.0",
     "nock": "^13.3.3",
@@ -83,10 +83,7 @@
       "LC_ALL=sk"
     ],
     "timeout": "720",
-    "nyc-arg": [
-      "--exclude",
-      "tap-snapshots/**"
-    ]
+    "show-full-coverage": true
   },
   "engines": {
     "node": "^20.17.0 || >=22.9.0"
@@ -95,5 +92,8 @@
     "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
     "version": "4.24.1",
     "content": "../../scripts/template-oss/index.js"
+  },
+  "nyc": {
+    "exclude": []
   }
 }

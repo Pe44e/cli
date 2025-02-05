@@ -26,14 +26,11 @@
   },
   "tap": {
     "coverage-map": "map.js",
-    "nyc-arg": [
-      "--exclude",
-      "tap-snapshots/**"
-    ]
+    "show-full-coverage": true
   },
   "devDependencies": {
     "@npmcli/eslint-config": "^5.0.1",
-    "@npmcli/template-oss": "4.23.6",
+    "@npmcli/template-oss": "4.24.1",
     "require-inject": "^1.4.4",
     "tap": "^21.0.1"
   },
@@ -51,5 +48,8 @@
     "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
     "version": "4.24.1",
     "content": "../../scripts/template-oss/index.js"
+  },
+  "nyc": {
+    "exclude": []
   }
 }

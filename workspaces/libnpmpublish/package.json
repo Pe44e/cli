@@ -27,7 +27,7 @@
     "@npmcli/eslint-config": "^5.0.1",
     "@npmcli/mock-globals": "^1.0.0",
     "@npmcli/mock-registry": "^1.0.0",
-    "@npmcli/template-oss": "4.23.6",
+    "@npmcli/template-oss": "4.24.1",
     "tap": "^21.0.1"
   },
   "repository": {
@@ -56,9 +56,9 @@
     "content": "../../scripts/template-oss/index.js"
   },
   "tap": {
-    "nyc-arg": [
-      "--exclude",
-      "tap-snapshots/**"
-    ]
+    "show-full-coverage": true
+  },
+  "nyc": {
+    "exclude": []
   }
 }
