@@ -37,7 +37,7 @@ const ALWAYS_IGNORE = [
   '.babelrc*',
   '.nyc_output',
   '.gitkeep',
-  '*.map',
+  '*.d.ts.map',
   '*.ts',
   '*.png',
   '*.jpg',
