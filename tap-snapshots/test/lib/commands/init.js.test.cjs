@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/init.js TAP displays output > displays helper info 1`] = `
+exports[`test/lib/commands/init.js > TAP > displays output > displays helper info 1`] = `
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
 
@@ -18,7 +18,7 @@ save it as a dependency in the package.json file.
 Press ^C at any time to quit.
 `
 
-exports[`test/lib/commands/init.js TAP workspaces no args -- yes > should print helper info 1`] = `
+exports[`test/lib/commands/init.js > TAP > workspaces > no args -- yes > should print helper info 1`] = `
 
 
 added 1 package in {TIME}

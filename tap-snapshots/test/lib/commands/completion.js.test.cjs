@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/completion.js TAP completion --no- flags > flags 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > --no- flags > flags 1`] = `
 Array [
   String(
     --no-version
@@ -14,31 +14,31 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/completion.js TAP completion commands with no completion > no results 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > commands with no completion > no results 1`] = `
 Array []
 `
 
-exports[`test/lib/commands/completion.js TAP completion completion cannot complete options that take a value in mid-command > does not try to complete option arguments in the middle of a command 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > completion cannot complete options that take a value in mid-command > does not try to complete option arguments in the middle of a command 1`] = `
 Array []
 `
 
-exports[`test/lib/commands/completion.js TAP completion completion completion > both shells 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > completion completion > both shells 1`] = `
 Array []
 `
 
-exports[`test/lib/commands/completion.js TAP completion completion completion no known shells > no responses 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > completion completion no known shells > no responses 1`] = `
 Array []
 `
 
-exports[`test/lib/commands/completion.js TAP completion completion completion wrong word count > no responses 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > completion completion wrong word count > no responses 1`] = `
 Array []
 `
 
-exports[`test/lib/commands/completion.js TAP completion completion of invalid command name does nothing > no results 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > completion of invalid command name does nothing > no results 1`] = `
 Array []
 `
 
-exports[`test/lib/commands/completion.js TAP completion double dashes escape from flag completion > full command list 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > double dashes escape from flag completion > full command list 1`] = `
 Array [
   String(
     access
@@ -168,11 +168,11 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/completion.js TAP completion filtered subcommands > filtered subcommands 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > filtered subcommands > filtered subcommands 1`] = `
 Array []
 `
 
-exports[`test/lib/commands/completion.js TAP completion flags > flags 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > flags > flags 1`] = `
 Array [
   String(
     --version
@@ -184,7 +184,7 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/completion.js TAP completion multiple command names > multiple command names 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > multiple command names > multiple command names 1`] = `
 Array [
   String(
     access
@@ -197,13 +197,13 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/completion.js TAP completion single command name > single command name 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > single command name > single command name 1`] = `
 Array [
   "config",
 ]
 `
 
-exports[`test/lib/commands/completion.js TAP completion subcommand completion > subcommands 1`] = `
+exports[`test/lib/commands/completion.js > TAP > completion > subcommand completion > subcommands 1`] = `
 Array [
   String(
     get
@@ -215,6 +215,6 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/completion.js TAP windows without bash > no output 1`] = `
+exports[`test/lib/commands/completion.js > TAP > windows without bash > no output 1`] = `
 Array []
 `

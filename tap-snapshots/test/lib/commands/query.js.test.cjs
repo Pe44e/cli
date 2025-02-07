@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/query.js TAP global > should return global package 1`] = `
+exports[`test/lib/commands/query.js > TAP > global > should return global package 1`] = `
 [
   {
     "name": "lorem",
@@ -13,8 +13,8 @@ exports[`test/lib/commands/query.js TAP global > should return global package 1`
     "_id": "lorem@2.0.0",
     "pkgid": "lorem@2.0.0",
     "location": "node_modules/lorem",
-    "path": "{CWD}/global/node_modules/lorem",
-    "realpath": "{CWD}/global/node_modules/lorem",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-global/global/node_modules/lorem",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-global/global/node_modules/lorem",
     "resolved": null,
     "from": [
       ""
@@ -29,7 +29,7 @@ exports[`test/lib/commands/query.js TAP global > should return global package 1`
 ]
 `
 
-exports[`test/lib/commands/query.js TAP include-workspace-root > should return workspace object and root object 1`] = `
+exports[`test/lib/commands/query.js > TAP > include-workspace-root > should return workspace object and root object 1`] = `
 [
   {
     "name": "project",
@@ -42,8 +42,8 @@ exports[`test/lib/commands/query.js TAP include-workspace-root > should return w
     },
     "pkgid": "project@",
     "location": "",
-    "path": "{CWD}/prefix",
-    "realpath": "{CWD}/prefix",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-include-workspace-root/prefix",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-include-workspace-root/prefix",
     "resolved": null,
     "from": [],
     "to": [
@@ -63,8 +63,8 @@ exports[`test/lib/commands/query.js TAP include-workspace-root > should return w
     "_id": "c@1.0.0",
     "pkgid": "c@1.0.0",
     "location": "c",
-    "path": "{CWD}/prefix/c",
-    "realpath": "{CWD}/prefix/c",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-include-workspace-root/prefix/c",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-include-workspace-root/prefix/c",
     "resolved": null,
     "from": [],
     "to": [],
@@ -77,7 +77,7 @@ exports[`test/lib/commands/query.js TAP include-workspace-root > should return w
 ]
 `
 
-exports[`test/lib/commands/query.js TAP linked node > should return linked node res 1`] = `
+exports[`test/lib/commands/query.js > TAP > linked node > should return linked node res 1`] = `
 [
   {
     "name": "a",
@@ -85,8 +85,8 @@ exports[`test/lib/commands/query.js TAP linked node > should return linked node 
     "_id": "a@1.0.0",
     "pkgid": "a@1.0.0",
     "location": "a",
-    "path": "{CWD}/prefix/a",
-    "realpath": "{CWD}/prefix/a",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-linked-node/prefix/a",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-linked-node/prefix/a",
     "resolved": null,
     "from": [],
     "to": [],
@@ -99,7 +99,7 @@ exports[`test/lib/commands/query.js TAP linked node > should return linked node 
 ]
 `
 
-exports[`test/lib/commands/query.js TAP missing > should return missing node 1`] = `
+exports[`test/lib/commands/query.js > TAP > missing > should return missing node 1`] = `
 [
   {
     "name": "b",
@@ -124,7 +124,7 @@ exports[`test/lib/commands/query.js TAP missing > should return missing node 1`]
 ]
 `
 
-exports[`test/lib/commands/query.js TAP package-lock-only with package lock > should return valid response with only lock info 1`] = `
+exports[`test/lib/commands/query.js > TAP > package-lock-only > with package lock > should return valid response with only lock info 1`] = `
 [
   {
     "name": "project",
@@ -133,8 +133,8 @@ exports[`test/lib/commands/query.js TAP package-lock-only with package lock > sh
     },
     "pkgid": "project@",
     "location": "",
-    "path": "{CWD}/prefix",
-    "realpath": "{CWD}/prefix",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-package-lock-only-with-package-lock/prefix",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-package-lock-only-with-package-lock/prefix",
     "resolved": null,
     "from": [],
     "to": [
@@ -157,8 +157,8 @@ exports[`test/lib/commands/query.js TAP package-lock-only with package lock > sh
     "_id": "a@1.2.3",
     "pkgid": "a@1.2.3",
     "location": "node_modules/a",
-    "path": "{CWD}/prefix/node_modules/a",
-    "realpath": "{CWD}/prefix/node_modules/a",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-package-lock-only-with-package-lock/prefix/node_modules/a",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-package-lock-only-with-package-lock/prefix/node_modules/a",
     "from": [
       ""
     ],
@@ -172,7 +172,7 @@ exports[`test/lib/commands/query.js TAP package-lock-only with package lock > sh
 ]
 `
 
-exports[`test/lib/commands/query.js TAP recursive tree > should return everything in the tree, accounting for recursion 1`] = `
+exports[`test/lib/commands/query.js > TAP > recursive tree > should return everything in the tree, accounting for recursion 1`] = `
 [
   {
     "name": "project",
@@ -182,8 +182,8 @@ exports[`test/lib/commands/query.js TAP recursive tree > should return everythin
     },
     "pkgid": "project@",
     "location": "",
-    "path": "{CWD}/prefix",
-    "realpath": "{CWD}/prefix",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix",
     "resolved": null,
     "from": [],
     "to": [
@@ -199,8 +199,8 @@ exports[`test/lib/commands/query.js TAP recursive tree > should return everythin
   {
     "pkgid": "a@",
     "location": "node_modules/a",
-    "path": "{CWD}/prefix/node_modules/a",
-    "realpath": "{CWD}/prefix/node_modules/a",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix/node_modules/a",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix/node_modules/a",
     "resolved": null,
     "from": [
       ""
@@ -215,8 +215,8 @@ exports[`test/lib/commands/query.js TAP recursive tree > should return everythin
   {
     "pkgid": "b@",
     "location": "node_modules/b",
-    "path": "{CWD}/prefix/node_modules/b",
-    "realpath": "{CWD}/prefix/node_modules/b",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix/node_modules/b",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix/node_modules/b",
     "resolved": null,
     "from": [
       ""
@@ -231,7 +231,7 @@ exports[`test/lib/commands/query.js TAP recursive tree > should return everythin
 ]
 `
 
-exports[`test/lib/commands/query.js TAP simple query > should return root object and direct children 1`] = `
+exports[`test/lib/commands/query.js > TAP > simple query > should return root object and direct children 1`] = `
 [
   {
     "name": "project",
@@ -244,8 +244,8 @@ exports[`test/lib/commands/query.js TAP simple query > should return root object
     },
     "pkgid": "project@",
     "location": "",
-    "path": "{CWD}/prefix",
-    "realpath": "{CWD}/prefix",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix",
     "resolved": null,
     "from": [],
     "to": [
@@ -261,8 +261,8 @@ exports[`test/lib/commands/query.js TAP simple query > should return root object
   {
     "pkgid": "a@",
     "location": "node_modules/a",
-    "path": "{CWD}/prefix/node_modules/a",
-    "realpath": "{CWD}/prefix/node_modules/a",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix/node_modules/a",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix/node_modules/a",
     "resolved": null,
     "from": [
       ""
@@ -277,8 +277,8 @@ exports[`test/lib/commands/query.js TAP simple query > should return root object
   {
     "pkgid": "b@",
     "location": "node_modules/b",
-    "path": "{CWD}/prefix/node_modules/b",
-    "realpath": "{CWD}/prefix/node_modules/b",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix/node_modules/b",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix/node_modules/b",
     "resolved": null,
     "from": [
       ""
@@ -293,7 +293,7 @@ exports[`test/lib/commands/query.js TAP simple query > should return root object
 ]
 `
 
-exports[`test/lib/commands/query.js TAP workspace query > should return workspace object 1`] = `
+exports[`test/lib/commands/query.js > TAP > workspace query > should return workspace object 1`] = `
 [
   {
     "name": "c",
@@ -301,8 +301,8 @@ exports[`test/lib/commands/query.js TAP workspace query > should return workspac
     "_id": "c@1.0.0",
     "pkgid": "c@1.0.0",
     "location": "c",
-    "path": "{CWD}/prefix/c",
-    "realpath": "{CWD}/prefix/c",
+    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-workspace-query/prefix/c",
+    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-workspace-query/prefix/c",
     "resolved": null,
     "from": [],
     "to": [],

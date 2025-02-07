@@ -5,15 +5,15 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/publish.js TAP _auth config default registry > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > _auth config default registry > new package version 1`] = `
 + @npmcli/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP bare _auth and registry config > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > bare _auth and registry config > new package version 1`] = `
 + @npm/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP dry-run > must match snapshot 1`] = `
+exports[`test/lib/commands/publish.js > TAP > dry-run > must match snapshot 1`] = `
 Array [
   "package: @npmcli/test-package@1.0.0",
   "Tarball Contents",
@@ -31,7 +31,7 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP foreground-scripts can still be set to false > must match snapshot 1`] = `
+exports[`test/lib/commands/publish.js > TAP > foreground-scripts can still be set to false > must match snapshot 1`] = `
 Array [
   "package: test-fg-scripts@0.0.0",
   "Tarball Contents",
@@ -49,7 +49,7 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP foreground-scripts defaults to true > must match snapshot 1`] = `
+exports[`test/lib/commands/publish.js > TAP > foreground-scripts defaults to true > must match snapshot 1`] = `
 Array [
   "package: test-fg-scripts@0.0.0",
   "Tarball Contents",
@@ -67,25 +67,25 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP has mTLS auth for scope configured registry > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > has mTLS auth for scope configured registry > new package version 1`] = `
 + @npm/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP has token auth for scope configured registry > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > has token auth for scope configured registry > new package version 1`] = `
 + @npm/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP ignore-scripts > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > ignore-scripts > new package version 1`] = `
 + @npmcli/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP json > must match snapshot 1`] = `
+exports[`test/lib/commands/publish.js > TAP > json > must match snapshot 1`] = `
 Array [
   "Publishing to https://registry.npmjs.org/ with tag latest and default access",
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP json > new package json 1`] = `
+exports[`test/lib/commands/publish.js > TAP > json > new package json 1`] = `
 {
   "id": "@npmcli/test-package@1.0.0",
   "name": "@npmcli/test-package",
@@ -107,7 +107,7 @@ exports[`test/lib/commands/publish.js TAP json > new package json 1`] = `
 }
 `
 
-exports[`test/lib/commands/publish.js TAP manifest > manifest 1`] = `
+exports[`test/lib/commands/publish.js > TAP > manifest > manifest 1`] = `
 Object {
   "_id": "npm@{VERSION}",
   "author": Object {
@@ -239,30 +239,41 @@ Object {
     "man/man7/workspaces.7",
   ],
   "name": "npm",
+  "nyc": Object {
+    "exclude": Array [
+      "docs/**",
+      "smoke-tests/**",
+      "mock-globals/**",
+      "mock-registry/**",
+      "workspaces/**",
+    ],
+  },
   "readmeFilename": "README.md",
   "repository": Object {
     "type": "git",
     "url": "git+https://github.com/npm/cli.git",
   },
+  [Symbol.for(indent)]: "  ",
+  [Symbol.for(newline)]: "\\n",
   "version": "{VERSION}",
 }
 `
 
-exports[`test/lib/commands/publish.js TAP no auth dry-run > must match snapshot 1`] = `
+exports[`test/lib/commands/publish.js > TAP > no auth dry-run > must match snapshot 1`] = `
 + @npmcli/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP no auth dry-run > warns about auth being needed 1`] = `
+exports[`test/lib/commands/publish.js > TAP > no auth dry-run > warns about auth being needed 1`] = `
 Array [
   "This command requires you to be logged in to https://registry.npmjs.org/ (dry-run)",
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP prioritize CLI flags over publishConfig > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > prioritize CLI flags over publishConfig > new package version 1`] = `
 + @npmcli/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP public access > must match snapshot 1`] = `
+exports[`test/lib/commands/publish.js > TAP > public access > must match snapshot 1`] = `
 Array [
   "package: @npm/test-package@1.0.0",
   "Tarball Contents",
@@ -280,15 +291,15 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP public access > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > public access > new package version 1`] = `
 + @npm/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP re-loads publishConfig.registry if added during script process > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > re-loads publishConfig.registry if added during script process > new package version 1`] = `
 + @npmcli/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP respects publishConfig.registry, runs appropriate scripts > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > respects publishConfig.registry, runs appropriate scripts > new package version 1`] = `
 
 > @npmcli/test-package@1.0.0 prepublishOnly
 > touch scripts-prepublishonly
@@ -301,7 +312,7 @@ exports[`test/lib/commands/publish.js TAP respects publishConfig.registry, runs 
 + @npmcli/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP restricted access > must match snapshot 1`] = `
+exports[`test/lib/commands/publish.js > TAP > restricted access > must match snapshot 1`] = `
 Array [
   "package: @npm/test-package@1.0.0",
   "Tarball Contents",
@@ -319,15 +330,15 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP restricted access > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > restricted access > new package version 1`] = `
 + @npm/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP scoped _auth config scoped registry > new package version 1`] = `
+exports[`test/lib/commands/publish.js > TAP > scoped _auth config scoped registry > new package version 1`] = `
 + @npm/test-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP tarball > must match snapshot 1`] = `
+exports[`test/lib/commands/publish.js > TAP > tarball > must match snapshot 1`] = `
 Array [
   "package: test-tar-package@1.0.0",
   "Tarball Contents",
@@ -348,17 +359,17 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP tarball > new package json 1`] = `
+exports[`test/lib/commands/publish.js > TAP > tarball > new package json 1`] = `
 + test-tar-package@1.0.0
 `
 
-exports[`test/lib/commands/publish.js TAP workspaces all workspaces - color > all public workspaces 1`] = `
+exports[`test/lib/commands/publish.js > TAP > workspaces > all workspaces - color > all public workspaces 1`] = `
 + workspace-a@1.2.3-a
 + workspace-b@1.2.3-n
 + workspace-n@1.2.3-n
 `
 
-exports[`test/lib/commands/publish.js TAP workspaces all workspaces - color > warns about skipped private workspace in color 1`] = `
+exports[`test/lib/commands/publish.js > TAP > workspaces > all workspaces - color > warns about skipped private workspace in color 1`] = `
 Array [
   "\\u001b[94mpublish\\u001b[39m npm auto-corrected some errors in your package.json when publishing.  Please run \\"npm pkg fix\\" to address these errors.",
   String(
@@ -375,13 +386,13 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP workspaces all workspaces - no color > all public workspaces 1`] = `
+exports[`test/lib/commands/publish.js > TAP > workspaces > all workspaces - no color > all public workspaces 1`] = `
 + workspace-a@1.2.3-a
 + workspace-b@1.2.3-n
 + workspace-n@1.2.3-n
 `
 
-exports[`test/lib/commands/publish.js TAP workspaces all workspaces - no color > warns about skipped private workspace 1`] = `
+exports[`test/lib/commands/publish.js > TAP > workspaces > all workspaces - no color > warns about skipped private workspace 1`] = `
 Array [
   "publish npm auto-corrected some errors in your package.json when publishing.  Please run \\"npm pkg fix\\" to address these errors.",
   String(
@@ -398,15 +409,15 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/publish.js TAP workspaces all workspaces - some marked private > one marked private 1`] = `
+exports[`test/lib/commands/publish.js > TAP > workspaces > all workspaces - some marked private > one marked private 1`] = `
 + workspace-a@1.2.3-a
 `
 
-exports[`test/lib/commands/publish.js TAP workspaces differet package spec > publish different package spec 1`] = `
+exports[`test/lib/commands/publish.js > TAP > workspaces > differet package spec > publish different package spec 1`] = `
 + pkg@1.2.3
 `
 
-exports[`test/lib/commands/publish.js TAP workspaces json > all workspaces in json 1`] = `
+exports[`test/lib/commands/publish.js > TAP > workspaces > json > all workspaces in json 1`] = `
 {
   "workspace-a": {
     "id": "workspace-a@1.2.3-a",
@@ -468,6 +479,6 @@ exports[`test/lib/commands/publish.js TAP workspaces json > all workspaces in js
 }
 `
 
-exports[`test/lib/commands/publish.js TAP workspaces one workspace - success > single workspace 1`] = `
+exports[`test/lib/commands/publish.js > TAP > workspaces > one workspace - success > single workspace 1`] = `
 + workspace-a@1.2.3-a
 `

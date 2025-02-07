@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/config.js TAP config list --json > output matches snapshot 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list --json > output matches snapshot 1`] = `
 {
   "cache": "{CACHE}",
   "color": {COLOR},
@@ -60,7 +60,7 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
   "git": "git",
   "git-tag-version": true,
   "global": false,
-  "globalconfig": "{CWD}/global/etc/npmrc",
+  "globalconfig": "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---json/global/etc/npmrc",
   "global-style": false,
   "heading": "npm",
   "https-proxy": null,
@@ -73,14 +73,14 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
   "init-author-name": "",
   "init-author-url": "",
   "init-license": "ISC",
-  "init-module": "{CWD}/home/.npm-init.js",
+  "init-module": "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---json/home/.npm-init.js",
   "init-type": "commonjs",
   "init-version": "1.0.0",
   "init.author.email": "",
   "init.author.name": "",
   "init.author.url": "",
   "init.license": "ISC",
-  "init.module": "{CWD}/home/.npm-init.js",
+  "init.module": "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---json/home/.npm-init.js",
   "init.version": "1.0.0",
   "install-links": false,
   "install-strategy": "hoisted",
@@ -117,7 +117,7 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
   "prefer-dedupe": false,
   "prefer-offline": false,
   "prefer-online": false,
-  "prefix": "{CWD}/global",
+  "prefix": "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---json/global",
   "preid": "",
   "production": null,
   "progress": {PROGRESS},
@@ -158,7 +158,7 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
   "update-notifier": true,
   "usage": false,
   "user-agent": "npm/{npm-version} node/{node-version} {platform} {arch} workspaces/{workspaces} {ci}",
-  "userconfig": "{CWD}/home/.npmrc",
+  "userconfig": "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---json/home/.npmrc",
   "version": false,
   "versions": false,
   "viewer": "{VIEWER}",
@@ -171,7 +171,7 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
 }
 `
 
-exports[`test/lib/commands/config.js TAP config list --long > output matches snapshot 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list --long > output matches snapshot 1`] = `
 ; "default" config from default values
 
 _auth = (protected)
@@ -225,7 +225,7 @@ git = "git"
 git-tag-version = true
 global = false
 global-style = false
-globalconfig = "{CWD}/global/etc/npmrc"
+globalconfig = "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---long/global/etc/npmrc"
 heading = "npm"
 https-proxy = null
 if-present = false
@@ -237,14 +237,14 @@ init-author-email = ""
 init-author-name = ""
 init-author-url = ""
 init-license = "ISC"
-init-module = "{CWD}/home/.npm-init.js"
+init-module = "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---long/home/.npm-init.js"
 init-type = "commonjs"
 init-version = "1.0.0"
 init.author.email = ""
 init.author.name = ""
 init.author.url = ""
 init.license = "ISC"
-init.module = "{CWD}/home/.npm-init.js"
+init.module = "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---long/home/.npm-init.js"
 init.version = "1.0.0"
 install-links = false
 install-strategy = "hoisted"
@@ -281,7 +281,7 @@ parseable = false
 prefer-dedupe = false
 prefer-offline = false
 prefer-online = false
-prefix = "{CWD}/global"
+prefix = "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---long/global"
 preid = ""
 production = null
 progress = {PROGRESS}
@@ -322,7 +322,7 @@ unicode = false
 update-notifier = true
 usage = false
 user-agent = "npm/{npm-version} node/{node-version} {platform} {arch} workspaces/{workspaces} {ci}"
-userconfig = "{CWD}/home/.npmrc"
+userconfig = "{CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---long/home/.npmrc"
 version = false
 versions = false
 viewer = "{VIEWER}"
@@ -332,15 +332,15 @@ workspaces = null
 workspaces-update = true
 yes = null
 
-; "global" config from {CWD}/global/etc/npmrc
+; "global" config from {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---long/global/etc/npmrc
 
 globalloaded = "yes"
 
-; "user" config from {CWD}/home/.npmrc
+; "user" config from {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---long/home/.npmrc
 
 userloaded = "yes"
 
-; "project" config from {CWD}/prefix/.npmrc
+; "project" config from {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list---long/prefix/.npmrc
 
 projectloaded = "yes"
 
@@ -351,12 +351,12 @@ color = {COLOR}
 long = true
 `
 
-exports[`test/lib/commands/config.js TAP config list > output matches snapshot 1`] = `
-; "global" config from {CWD}/global/etc/npmrc
+exports[`test/lib/commands/config.js > TAP > config list > output matches snapshot 1`] = `
+; "global" config from {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list/global/etc/npmrc
 
 globalloaded = "yes"
 
-; "user" config from {CWD}/home/.npmrc
+; "user" config from {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list/home/.npmrc
 
 _auth = (protected)
 //nerfdart:_auth = (protected)
@@ -364,7 +364,7 @@ _auth = (protected)
 auth = (protected)
 userloaded = "yes"
 
-; "project" config from {CWD}/prefix/.npmrc
+; "project" config from {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list/prefix/.npmrc
 
 projectloaded = "yes"
 
@@ -375,14 +375,14 @@ color = {COLOR}
 
 ; node bin location = {NODE-BIN-LOCATION}
 ; node version = {NODE-VERSION}
-; npm local prefix = {CWD}/prefix
+; npm local prefix = {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list/prefix
 ; npm version = {NPM-VERSION}
-; cwd = {CWD}/prefix
-; HOME = {CWD}/home
+; cwd = {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list/prefix
+; HOME = {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list/home
 ; Run \`npm config ls -l\` to show all defaults.
 `
 
-exports[`test/lib/commands/config.js TAP config list with publishConfig global > output matches snapshot 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list with publishConfig > global > output matches snapshot 1`] = `
 ; "cli" config from command line options
 
 cache = "{CACHE}"
@@ -391,14 +391,14 @@ global = true
 
 ; node bin location = {NODE-BIN-LOCATION}
 ; node version = {NODE-VERSION}
-; npm local prefix = {CWD}/prefix
+; npm local prefix = {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list-with-publishConfig-global/prefix
 ; npm version = {NPM-VERSION}
-; cwd = {CWD}/prefix
-; HOME = {CWD}/home
+; cwd = {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list-with-publishConfig-global/prefix
+; HOME = {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list-with-publishConfig-global/home
 ; Run \`npm config ls -l\` to show all defaults.
 `
 
-exports[`test/lib/commands/config.js TAP config list with publishConfig local > output matches snapshot 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list with publishConfig > local > output matches snapshot 1`] = `
 ; "cli" config from command line options
 
 cache = "{CACHE}"
@@ -406,13 +406,13 @@ color = {COLOR}
 
 ; node bin location = {NODE-BIN-LOCATION}
 ; node version = {NODE-VERSION}
-; npm local prefix = {CWD}/prefix
+; npm local prefix = {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list-with-publishConfig-local/prefix
 ; npm version = {NPM-VERSION}
-; cwd = {CWD}/prefix
-; HOME = {CWD}/home
+; cwd = {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list-with-publishConfig-local/prefix
+; HOME = {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list-with-publishConfig-local/home
 ; Run \`npm config ls -l\` to show all defaults.
 
-; "publishConfig" from {CWD}/prefix/package.json
+; "publishConfig" from {CWD}/.tap/fixtures/test-lib-commands-config.js-config-list-with-publishConfig-local/prefix/package.json
 ; This set of config values will be used at publish-time.
 
 //some.registry:_authToken = (protected)
@@ -420,7 +420,7 @@ other = "not defined"
 registry = "https://some.registry"
 `
 
-exports[`test/lib/commands/config.js TAP config list with publishConfig local > warns about unknown config 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list with publishConfig > local > warns about unknown config 1`] = `
 Array [
   "Unknown publishConfig config /"other/". This will stop working in the next major version of npm.",
 ]

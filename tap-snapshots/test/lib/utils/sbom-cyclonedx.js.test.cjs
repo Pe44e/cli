@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/utils/sbom-cyclonedx.js TAP node - with deps > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > node - with deps > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -82,7 +82,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP node - with deps > must match snap
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP node - with duplicate deps > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > node - with duplicate deps > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -142,7 +142,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP node - with duplicate deps > must 
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - application package type > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - application package type > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -185,7 +185,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - application package 
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - bundled > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - bundled > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -233,7 +233,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - bundled > must match
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - development > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - development > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -281,7 +281,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - development > must m
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - extraneous > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - extraneous > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -329,7 +329,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - extraneous > must ma
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - from git url > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - from git url > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -377,7 +377,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - from git url > must 
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - no package info > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - no package info > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -419,7 +419,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - no package info > mu
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - optional > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - optional > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -462,7 +462,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - optional > must matc
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - package lock only > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - package lock only > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -505,7 +505,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - package lock only > 
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - private > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - private > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -553,7 +553,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - private > must match
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with author object > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with author object > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -596,7 +596,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with author object >
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with description > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with description > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -640,7 +640,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with description > m
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with distribution url > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with distribution url > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -688,7 +688,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with distribution ur
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with homepage > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with homepage > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -736,7 +736,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with homepage > must
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with integrity > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with integrity > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -785,7 +785,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with integrity > mus
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with issue tracker > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with issue tracker > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -833,7 +833,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with issue tracker >
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with license expression > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with license expression > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -881,7 +881,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with license express
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with license object > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with license object > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -931,7 +931,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with license object 
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with repository url > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with repository url > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -979,7 +979,7 @@ exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with repository url 
 }
 `
 
-exports[`test/lib/utils/sbom-cyclonedx.js TAP single node - with single license > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-cyclonedx.js > TAP > single node - with single license > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",

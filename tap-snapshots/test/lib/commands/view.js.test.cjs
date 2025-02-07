@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/view.js TAP deprecated package with license, bugs, repository and other fields > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > deprecated package with license, bugs, repository and other fields > must match snapshot 1`] = `
 
 [4m[36mgreen@1.0.0[39m[24m | [32mACME[39m | deps: [36m2[39m | versions: [36m2[39m
 green is a very important color
@@ -34,7 +34,7 @@ dist-tags:
 [34mlatest[39m: 1.0.0
 `
 
-exports[`test/lib/commands/view.js TAP deprecated package with unicode > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > deprecated package with unicode > must match snapshot 1`] = `
 
 [4m[36mgreen@1.0.0[39m[24m | [32mACME[39m | deps: [36m2[39m | versions: [36m2[39m
 green is a very important color
@@ -63,7 +63,7 @@ dist-tags:
 [34mlatest[39m: 1.0.0
 `
 
-exports[`test/lib/commands/view.js TAP package from git > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package from git > must match snapshot 1`] = `
 
 [4m[36mgreen@1.0.0[39m[24m | [32mACME[39m | deps: [36m2[39m | versions: [36m2[39m
 green is a very important color
@@ -92,7 +92,7 @@ dist-tags:
 [34mlatest[39m: 1.0.0
 `
 
-exports[`test/lib/commands/view.js TAP package in cwd directory > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package in cwd > directory > must match snapshot 1`] = `
 
 [4m[36mblue@1.0.0[39m[24m | [31mProprietary[39m | deps: [36mnone[39m | versions: [36m2[39m
 
@@ -118,7 +118,7 @@ dist-tags:
 published {TIME} ago[39m
 `
 
-exports[`test/lib/commands/view.js TAP package in cwd non-specific version > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package in cwd > non-specific version > must match snapshot 1`] = `
 
 [4m[36mblue@1.0.0[39m[24m | [31mProprietary[39m | deps: [36mnone[39m | versions: [36m2[39m
 
@@ -144,7 +144,7 @@ dist-tags:
 published {TIME} ago[39m
 `
 
-exports[`test/lib/commands/view.js TAP package in cwd specific version > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package in cwd > specific version > must match snapshot 1`] = `
 
 [4m[36mblue@1.0.0[39m[24m | [31mProprietary[39m | deps: [36mnone[39m | versions: [36m2[39m
 
@@ -170,7 +170,7 @@ dist-tags:
 published {TIME} ago[39m
 `
 
-exports[`test/lib/commands/view.js TAP package with --json and semver range > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package with --json and semver range > must match snapshot 1`] = `
 [
   {
     "_npmUser": "claudia <claudia@cyan.com>",
@@ -205,7 +205,7 @@ exports[`test/lib/commands/view.js TAP package with --json and semver range > mu
 ]
 `
 
-exports[`test/lib/commands/view.js TAP package with homepage > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package with homepage > must match snapshot 1`] = `
 
 [4m[36morange@1.0.0[39m[24m | [31mProprietary[39m | deps: [36mnone[39m | versions: [36m2[39m
 [34mhttp://hm.orange.com[39m
@@ -220,11 +220,11 @@ dist-tags:
 [34mlatest[39m: 1.0.0
 `
 
-exports[`test/lib/commands/view.js TAP package with invalid version > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package with invalid version > must match snapshot 1`] = `
 [ [32m'1.0.0'[39m, [32m'1.0.1'[39m ]
 `
 
-exports[`test/lib/commands/view.js TAP package with maintainers info as object > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package with maintainers info as object > must match snapshot 1`] = `
 
 [4m[36mpink@1.0.0[39m[24m | [31mProprietary[39m | deps: [36mnone[39m | versions: [36m2[39m
 
@@ -238,7 +238,7 @@ dist-tags:
 [34mlatest[39m: 1.0.0
 `
 
-exports[`test/lib/commands/view.js TAP package with more than 25 deps > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package with more than 25 deps > must match snapshot 1`] = `
 
 [4m[36mblack@1.0.0[39m[24m | [31mProprietary[39m | deps: [36m25[39m | versions: [36m2[39m
 
@@ -279,7 +279,7 @@ dist-tags:
 [34mlatest[39m: 1.0.0
 `
 
-exports[`test/lib/commands/view.js TAP package with no modified time > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package with no modified time > must match snapshot 1`] = `
 
 [4m[36mcyan@1.0.0[39m[24m | [31mProprietary[39m | deps: [36mnone[39m | versions: [36m2[39m
 
@@ -295,7 +295,7 @@ dist-tags:
 published by [34mclaudia[39m <[2mclaudia@cyan.com[22m>
 `
 
-exports[`test/lib/commands/view.js TAP package with no repo or homepage > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package with no repo or homepage > must match snapshot 1`] = `
 
 [4m[36mblue@1.0.0[39m[24m | [31mProprietary[39m | deps: [36mnone[39m | versions: [36m2[39m
 
@@ -321,7 +321,7 @@ dist-tags:
 published {TIME} ago[39m
 `
 
-exports[`test/lib/commands/view.js TAP package with semver range > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package with semver range > must match snapshot 1`] = `
 
 [4m[36mblue@1.0.0[39m[24m | [31mProprietary[39m | deps: [36mnone[39m | versions: [36m2[39m
 
@@ -372,7 +372,7 @@ dist-tags:
 published {TIME} ago[39m
 `
 
-exports[`test/lib/commands/view.js TAP package with single version full json > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > package with single version > full json > must match snapshot 1`] = `
 {
   "_id": "single-version",
   "name": "single-version",
@@ -391,20 +391,20 @@ exports[`test/lib/commands/view.js TAP package with single version full json > m
 }
 `
 
-exports[`test/lib/commands/view.js TAP specific field names array field - 1 element > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > specific field names > array field - 1 element > must match snapshot 1`] = `
 claudia
 `
 
-exports[`test/lib/commands/view.js TAP specific field names array field - 2 elements > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > specific field names > array field - 2 elements > must match snapshot 1`] = `
 maintainers[0].name = 'claudia'
 maintainers[1].name = 'isaacs'
 `
 
-exports[`test/lib/commands/view.js TAP specific field names fields with empty values > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > specific field names > fields with empty values > must match snapshot 1`] = `
 
 `
 
-exports[`test/lib/commands/view.js TAP specific field names maintainers with email > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > specific field names > maintainers with email > must match snapshot 1`] = `
 maintainers = [
   { name: 'claudia', email: 'c@yellow.com', twitter: 'cyellow' },
   { name: 'isaacs', email: 'i@yellow.com', twitter: 'iyellow' }
@@ -412,30 +412,30 @@ maintainers = [
 name = 'yellow'
 `
 
-exports[`test/lib/commands/view.js TAP specific field names maintainers with url > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > specific field names > maintainers with url > must match snapshot 1`] = `
 [ 'claudia (http://c.pink.com)', 'isaacs (http://i.pink.com)' ]
 `
 
-exports[`test/lib/commands/view.js TAP specific field names nested field with brackets > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > specific field names > nested field with brackets > must match snapshot 1`] = `
 123
 `
 
-exports[`test/lib/commands/view.js TAP specific field names readme > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > specific field names > readme > must match snapshot 1`] = `
 a very useful readme
 `
 
-exports[`test/lib/commands/view.js TAP specific field names several fields > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > specific field names > several fields > must match snapshot 1`] = `
 name = 'yellow'
 version = '1.0.0'
 `
 
-exports[`test/lib/commands/view.js TAP specific field names several fields with several versions > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > specific field names > several fields with several versions > must match snapshot 1`] = `
 yellow@1.0.0 'claudia'
 yellow@1.0.1 'claudia'
 yellow@1.0.2 'claudia'
 `
 
-exports[`test/lib/commands/view.js TAP workspaces 404 workspaces basic > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > 404 workspaces > basic > must match snapshot 1`] = `
 
 [4m[36mgreen@1.0.0[39m[24m | [32mACME[39m | deps: [36m2[39m | versions: [36m2[39m
 green is a very important color
@@ -466,7 +466,7 @@ error [94mcode[39m E404
 error [94m404[39m 404
 `
 
-exports[`test/lib/commands/view.js TAP workspaces 404 workspaces json > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > 404 workspaces > json > must match snapshot 1`] = `
 {
   "green": {
     "_id": "green",
@@ -532,7 +532,7 @@ exports[`test/lib/commands/view.js TAP workspaces 404 workspaces json > must mat
 }
 `
 
-exports[`test/lib/commands/view.js TAP workspaces 404 workspaces json with package named error > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > 404 workspaces > json with package named error > must match snapshot 1`] = `
 warn overwriting existing error on json output
 {
   "error": {
@@ -545,7 +545,7 @@ warn overwriting existing error on json output
 }
 `
 
-exports[`test/lib/commands/view.js TAP workspaces 404 workspaces non-404 error rejects > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > 404 workspaces > non-404 error rejects > must match snapshot 1`] = `
 
 [4m[36mgreen@1.0.0[39m[24m | [32mACME[39m | deps: [36m2[39m | versions: [36m2[39m
 green is a very important color
@@ -575,14 +575,14 @@ dist-tags:
 error Unknown error
 `
 
-exports[`test/lib/commands/view.js TAP workspaces 404 workspaces non-404 error rejects with single arg > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > 404 workspaces > non-404 error rejects with single arg > must match snapshot 1`] = `
 green:
 1.0.0
 unknown-error:
 error Unknown error
 `
 
-exports[`test/lib/commands/view.js TAP workspaces all workspaces --json > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > all workspaces --json > must match snapshot 1`] = `
 {
   "green": {
     "_id": "green",
@@ -661,7 +661,7 @@ exports[`test/lib/commands/view.js TAP workspaces all workspaces --json > must m
 }
 `
 
-exports[`test/lib/commands/view.js TAP workspaces all workspaces > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > all workspaces > must match snapshot 1`] = `
 
 [4m[36mgreen@1.0.0[39m[24m | [32mACME[39m | deps: [36m2[39m | versions: [36m2[39m
 green is a very important color
@@ -702,30 +702,30 @@ dist-tags:
 [34mlatest[39m: 1.0.0
 `
 
-exports[`test/lib/commands/view.js TAP workspaces all workspaces nonexistent field --json > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > all workspaces nonexistent field --json > must match snapshot 1`] = `
 
 `
 
-exports[`test/lib/commands/view.js TAP workspaces all workspaces nonexistent field > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > all workspaces nonexistent field > must match snapshot 1`] = `
 green:
 orange:
 `
 
-exports[`test/lib/commands/view.js TAP workspaces all workspaces single field --json > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > all workspaces single field --json > must match snapshot 1`] = `
 {
   "green": "green",
   "orange": "orange"
 }
 `
 
-exports[`test/lib/commands/view.js TAP workspaces all workspaces single field > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > all workspaces single field > must match snapshot 1`] = `
 green:
 green
 orange:
 orange
 `
 
-exports[`test/lib/commands/view.js TAP workspaces one specific workspace > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > one specific workspace > must match snapshot 1`] = `
 
 [4m[36mgreen@1.0.0[39m[24m | [32mACME[39m | deps: [36m2[39m | versions: [36m2[39m
 green is a very important color
@@ -754,7 +754,7 @@ dist-tags:
 [34mlatest[39m: 1.0.0
 `
 
-exports[`test/lib/commands/view.js TAP workspaces remote package name > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > remote package name > must match snapshot 1`] = `
 
 [4m[36mpink@1.0.0[39m[24m | [31mProprietary[39m | deps: [36mnone[39m | versions: [36m2[39m
 
@@ -768,13 +768,13 @@ dist-tags:
 [34mlatest[39m: 1.0.0
 `
 
-exports[`test/lib/commands/view.js TAP workspaces remote package name > should have warning of ignoring workspaces 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > remote package name > should have warning of ignoring workspaces 1`] = `
 Array [
   "\\u001b[94mIgnoring workspaces for specified package(s)\\u001b[39m",
 ]
 `
 
-exports[`test/lib/commands/view.js TAP workspaces single workspace --json > must match snapshot 1`] = `
+exports[`test/lib/commands/view.js > TAP > workspaces > single workspace --json > must match snapshot 1`] = `
 {
   "green": {
     "_id": "green",

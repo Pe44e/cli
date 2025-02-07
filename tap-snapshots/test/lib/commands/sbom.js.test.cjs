@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/sbom.js TAP sbom --omit dev > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > --omit dev > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -95,7 +95,7 @@ exports[`test/lib/commands/sbom.js TAP sbom --omit dev > must match snapshot 1`]
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom --omit optional > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > --omit optional > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -163,7 +163,7 @@ exports[`test/lib/commands/sbom.js TAP sbom --omit optional > must match snapsho
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom --omit peer > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > --omit peer > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -231,7 +231,7 @@ exports[`test/lib/commands/sbom.js TAP sbom --omit peer > must match snapshot 1`
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom basic sbom - cyclonedx > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > basic sbom - cyclonedx > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -321,7 +321,7 @@ exports[`test/lib/commands/sbom.js TAP sbom basic sbom - cyclonedx > must match 
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom basic sbom - spdx > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > basic sbom - spdx > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -433,7 +433,7 @@ exports[`test/lib/commands/sbom.js TAP sbom basic sbom - spdx > must match snaps
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom duplicate deps - cyclonedx > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > duplicate deps - cyclonedx > must match snapshot 1`] = `
 {
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
@@ -540,7 +540,7 @@ exports[`test/lib/commands/sbom.js TAP sbom duplicate deps - cyclonedx > must ma
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom duplicate deps - spdx > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > duplicate deps - spdx > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -679,7 +679,7 @@ exports[`test/lib/commands/sbom.js TAP sbom duplicate deps - spdx > must match s
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom extraneous dep > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > extraneous dep > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -791,7 +791,7 @@ exports[`test/lib/commands/sbom.js TAP sbom extraneous dep > must match snapshot
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom loading a tree containing workspaces should filter worksapces with --workspace > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > loading a tree containing workspaces > should filter worksapces with --workspace > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -974,7 +974,7 @@ exports[`test/lib/commands/sbom.js TAP sbom loading a tree containing workspaces
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom loading a tree containing workspaces should filter workspaces with multiple --workspace flags > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > loading a tree containing workspaces > should filter workspaces with multiple --workspace flags > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -1064,7 +1064,7 @@ exports[`test/lib/commands/sbom.js TAP sbom loading a tree containing workspaces
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom loading a tree containing workspaces should list workspaces properly with default configs > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > loading a tree containing workspaces > should list workspaces properly with default configs > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -1335,7 +1335,7 @@ exports[`test/lib/commands/sbom.js TAP sbom loading a tree containing workspaces
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom loading a tree containing workspaces should not list workspaces with --no-workspaces > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > loading a tree containing workspaces > should not list workspaces with --no-workspaces > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -1403,11 +1403,11 @@ exports[`test/lib/commands/sbom.js TAP sbom loading a tree containing workspaces
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom lock file only - missing lock file > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > lock file only - missing lock file > must match snapshot 1`] = `
 
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom lock file only > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > lock file only > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -1519,7 +1519,7 @@ exports[`test/lib/commands/sbom.js TAP sbom lock file only > must match snapshot
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom missing (optional) dep > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > missing (optional) dep > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -1631,6 +1631,6 @@ exports[`test/lib/commands/sbom.js TAP sbom missing (optional) dep > must match 
 }
 `
 
-exports[`test/lib/commands/sbom.js TAP sbom missing format > must match snapshot 1`] = `
+exports[`test/lib/commands/sbom.js > TAP > sbom > missing format > must match snapshot 1`] = `
 
 `

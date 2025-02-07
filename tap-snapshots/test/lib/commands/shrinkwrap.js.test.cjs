@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile ancient > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with hidden lockfile > ancient > must match snapshot 1`] = `
 {
   "localPrefix": {
     "node_modules": {
@@ -27,7 +27,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile ancient > must
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile ancient upgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with hidden lockfile > ancient upgrade > must match snapshot 1`] = `
 {
   "localPrefix": {
     "node_modules": {
@@ -54,7 +54,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile ancient upgrad
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile existing > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with hidden lockfile > existing > must match snapshot 1`] = `
 {
   "localPrefix": {
     "node_modules": {
@@ -77,7 +77,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile existing > mus
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile existing downgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with hidden lockfile > existing downgrade > must match snapshot 1`] = `
 {
   "localPrefix": {
     "node_modules": {
@@ -103,7 +103,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile existing downg
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile existing upgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with hidden lockfile > existing upgrade > must match snapshot 1`] = `
 {
   "localPrefix": {
     "node_modules": {
@@ -130,7 +130,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with hidden lockfile existing upgra
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with nothing ancient > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with nothing > ancient > must match snapshot 1`] = `
 {
   "localPrefix": {},
   "config": {},
@@ -147,7 +147,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with nothing ancient > must match s
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with nothing ancient upgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with nothing > ancient upgrade > must match snapshot 1`] = `
 {
   "localPrefix": {},
   "config": {
@@ -166,7 +166,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with nothing ancient upgrade > must
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json ancient > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with npm-shrinkwrap.json > ancient > must match snapshot 1`] = `
 {
   "localPrefix": {
     "npm-shrinkwrap.json": {
@@ -193,7 +193,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json ancient > 
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json ancient upgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with npm-shrinkwrap.json > ancient upgrade > must match snapshot 1`] = `
 {
   "localPrefix": {
     "npm-shrinkwrap.json": {
@@ -222,7 +222,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json ancient up
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json existing > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with npm-shrinkwrap.json > existing > must match snapshot 1`] = `
 {
   "localPrefix": {
     "npm-shrinkwrap.json": {
@@ -247,7 +247,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json existing >
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json existing downgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with npm-shrinkwrap.json > existing downgrade > must match snapshot 1`] = `
 {
   "localPrefix": {
     "npm-shrinkwrap.json": {
@@ -271,7 +271,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json existing d
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json existing upgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with npm-shrinkwrap.json > existing upgrade > must match snapshot 1`] = `
 {
   "localPrefix": {
     "npm-shrinkwrap.json": {
@@ -300,7 +300,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with npm-shrinkwrap.json existing u
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with package-lock.json ancient > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with package-lock.json > ancient > must match snapshot 1`] = `
 {
   "localPrefix": {
     "package-lock.json": {
@@ -327,7 +327,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with package-lock.json ancient > mu
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with package-lock.json ancient upgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with package-lock.json > ancient upgrade > must match snapshot 1`] = `
 {
   "localPrefix": {
     "package-lock.json": {
@@ -356,7 +356,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with package-lock.json ancient upgr
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with package-lock.json existing > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with package-lock.json > existing > must match snapshot 1`] = `
 {
   "localPrefix": {
     "package-lock.json": {
@@ -381,7 +381,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with package-lock.json existing > m
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with package-lock.json existing downgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with package-lock.json > existing downgrade > must match snapshot 1`] = `
 {
   "localPrefix": {
     "package-lock.json": {
@@ -405,7 +405,7 @@ exports[`test/lib/commands/shrinkwrap.js TAP with package-lock.json existing dow
 }
 `
 
-exports[`test/lib/commands/shrinkwrap.js TAP with package-lock.json existing upgrade > must match snapshot 1`] = `
+exports[`test/lib/commands/shrinkwrap.js > TAP > with package-lock.json > existing upgrade > must match snapshot 1`] = `
 {
   "localPrefix": {
     "package-lock.json": {

@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/docs.js TAP basic usage > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > basic usage > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -33,7 +33,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {BASEDIR}
 `
 
-exports[`test/lib/docs.js TAP command list > aliases 1`] = `
+exports[`test/lib/docs.js > TAP > command list > aliases 1`] = `
 Object {
   "add": "install",
   "add-user": "adduser",
@@ -94,7 +94,7 @@ Object {
 }
 `
 
-exports[`test/lib/docs.js TAP command list > commands 1`] = `
+exports[`test/lib/docs.js > TAP > command list > commands 1`] = `
 Array [
   "access",
   "adduser",
@@ -166,11 +166,11 @@ Array [
 ]
 `
 
-exports[`test/lib/docs.js TAP command list > deref 1`] = `
+exports[`test/lib/docs.js > TAP > command list > deref 1`] = `
 Function deref(c)
 `
 
-exports[`test/lib/docs.js TAP config > all definitions 1`] = `
+exports[`test/lib/docs.js > TAP > config > all definitions 1`] = `
 #### \`_auth\`
 
 * Default: null
@@ -2067,7 +2067,7 @@ Alias for --package-lock
 
 `
 
-exports[`test/lib/docs.js TAP config > all keys 1`] = `
+exports[`test/lib/docs.js > TAP > config > all keys 1`] = `
 Array [
   "_auth",
   "access",
@@ -2228,7 +2228,7 @@ Array [
 ]
 `
 
-exports[`test/lib/docs.js TAP config > keys that are flattened 1`] = `
+exports[`test/lib/docs.js > TAP > config > keys that are flattened 1`] = `
 Array [
   "_auth",
   "access",
@@ -2359,7 +2359,7 @@ Array [
 ]
 `
 
-exports[`test/lib/docs.js TAP config > keys that are not flattened 1`] = `
+exports[`test/lib/docs.js > TAP > config > keys that are not flattened 1`] = `
 Array [
   "expect-result-count",
   "expect-results",
@@ -2394,7 +2394,7 @@ Array [
 ]
 `
 
-exports[`test/lib/docs.js TAP flat options > full flat options object 1`] = `
+exports[`test/lib/docs.js > TAP > flat options > full flat options object 1`] = `
 Object {
   "_auth": null,
   "access": null,
@@ -2407,7 +2407,7 @@ Object {
   "binLinks": true,
   "browser": null,
   "ca": null,
-  "cache": "{CWD}/cache/_cacache",
+  "cache": "{CWD}/.tap/fixtures/test-lib-docs.js-flat-options/cache/_cacache",
   "call": "",
   "cert": null,
   "cidr": null,
@@ -2434,7 +2434,7 @@ Object {
   "git": "git",
   "gitTagVersion": true,
   "global": false,
-  "globalconfig": "{CWD}/global/etc/npmrc",
+  "globalconfig": "{CWD}/.tap/fixtures/test-lib-docs.js-flat-options/global/etc/npmrc",
   "heading": "npm",
   "httpsProxy": null,
   "ifPresent": false,
@@ -2456,10 +2456,10 @@ Object {
   "nodeBin": "{NODE}",
   "nodeVersion": "2.2.2",
   "noProxy": "",
-  "npmBin": "{CWD}/other/bin/npm-cli.js",
+  "npmBin": "{CWD}/.tap/fixtures/test-lib-docs.js-flat-options/other/bin/npm-cli.js",
   "npmCommand": "version",
   "npmVersion": "3.3.3",
-  "npxCache": "{CWD}/cache/_npx",
+  "npxCache": "{CWD}/.tap/fixtures/test-lib-docs.js-flat-options/cache/_npx",
   "offline": false,
   "omit": Array [],
   "omitLockfileRegistryResolved": false,
@@ -2511,7 +2511,7 @@ Object {
   "strictSSL": true,
   "tagVersionPrefix": "v",
   "timeout": 300000,
-  "tufCache": "{CWD}/cache/_tuf",
+  "tufCache": "{CWD}/.tap/fixtures/test-lib-docs.js-flat-options/cache/_tuf",
   "umask": 0,
   "unicode": false,
   "userAgent": "npm/1.1.1 node/2.2.2 {PLATFORM} {ARCH} workspaces/false ci/{ci}",
@@ -2520,7 +2520,7 @@ Object {
 }
 `
 
-exports[`test/lib/docs.js TAP shorthands > docs 1`] = `
+exports[`test/lib/docs.js > TAP > shorthands > docs 1`] = `
 * \`-a\`: \`--all\`
 * \`--enjoy-by\`: \`--before\`
 * \`-c\`: \`--call\`
@@ -2563,7 +2563,7 @@ exports[`test/lib/docs.js TAP shorthands > docs 1`] = `
 * \`-y\`: \`--yes\`
 `
 
-exports[`test/lib/docs.js TAP usage access > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > access > must match snapshot 1`] = `
 Set access level on published packages
 
 Usage:
@@ -2597,7 +2597,7 @@ Note: This command is unaware of workspaces.
 #### \`registry\`
 `
 
-exports[`test/lib/docs.js TAP usage adduser > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > adduser > must match snapshot 1`] = `
 Add a registry user account
 
 Usage:
@@ -2623,7 +2623,7 @@ Note: This command is unaware of workspaces.
 #### \`auth-type\`
 `
 
-exports[`test/lib/docs.js TAP usage audit > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > audit > must match snapshot 1`] = `
 Run a security audit
 
 Usage:
@@ -2660,7 +2660,7 @@ npm audit [fix|signatures]
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage bugs > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > bugs > must match snapshot 1`] = `
 Report bugs for a package in a web browser
 
 Usage:
@@ -2688,7 +2688,7 @@ alias: issues
 #### \`include-workspace-root\`
 `
 
-exports[`test/lib/docs.js TAP usage cache > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > cache > must match snapshot 1`] = `
 Manipulates packages cache
 
 Usage:
@@ -2714,7 +2714,7 @@ Note: This command is unaware of workspaces.
 #### \`cache\`
 `
 
-exports[`test/lib/docs.js TAP usage ci > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > ci > must match snapshot 1`] = `
 Clean install a project
 
 Usage:
@@ -2757,7 +2757,7 @@ aliases: clean-install, ic, install-clean, isntall-clean
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage completion > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > completion > must match snapshot 1`] = `
 Tab Completion for npm
 
 Usage:
@@ -2774,7 +2774,7 @@ Note: This command is unaware of workspaces.
 NO PARAMS
 `
 
-exports[`test/lib/docs.js TAP usage config > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > config > must match snapshot 1`] = `
 Manage the npm configuration files
 
 Usage:
@@ -2813,7 +2813,7 @@ Note: This command is unaware of workspaces.
 #### \`long\`
 `
 
-exports[`test/lib/docs.js TAP usage dedupe > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > dedupe > must match snapshot 1`] = `
 Reduce duplication in the package tree
 
 Usage:
@@ -2856,7 +2856,7 @@ alias: ddp
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage deprecate > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > deprecate > must match snapshot 1`] = `
 Deprecate a version of a package
 
 Usage:
@@ -2878,7 +2878,7 @@ Note: This command is unaware of workspaces.
 #### \`dry-run\`
 `
 
-exports[`test/lib/docs.js TAP usage diff > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > diff > must match snapshot 1`] = `
 The registry diff command
 
 Usage:
@@ -2913,7 +2913,7 @@ npm diff [...<paths>]
 #### \`include-workspace-root\`
 `
 
-exports[`test/lib/docs.js TAP usage dist-tag > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > dist-tag > must match snapshot 1`] = `
 Modify package distribution tags
 
 Usage:
@@ -2942,7 +2942,7 @@ alias: dist-tags
 #### \`include-workspace-root\`
 `
 
-exports[`test/lib/docs.js TAP usage docs > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > docs > must match snapshot 1`] = `
 Open documentation for a package in a web browser
 
 Usage:
@@ -2970,7 +2970,7 @@ alias: home
 #### \`include-workspace-root\`
 `
 
-exports[`test/lib/docs.js TAP usage doctor > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > doctor > must match snapshot 1`] = `
 Check the health of your npm environment
 
 Usage:
@@ -2990,7 +2990,7 @@ Note: This command is unaware of workspaces.
 #### \`registry\`
 `
 
-exports[`test/lib/docs.js TAP usage edit > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > edit > must match snapshot 1`] = `
 Edit an installed package
 
 Usage:
@@ -3010,7 +3010,7 @@ Note: This command is unaware of workspaces.
 #### \`editor\`
 `
 
-exports[`test/lib/docs.js TAP usage exec > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > exec > must match snapshot 1`] = `
 Run a command from a local or remote npm package
 
 Usage:
@@ -3044,7 +3044,7 @@ alias: x
 #### \`include-workspace-root\`
 `
 
-exports[`test/lib/docs.js TAP usage explain > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > explain > must match snapshot 1`] = `
 Explain installed packages
 
 Usage:
@@ -3067,7 +3067,7 @@ alias: why
 #### \`workspace\`
 `
 
-exports[`test/lib/docs.js TAP usage explore > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > explore > must match snapshot 1`] = `
 Browse an installed package
 
 Usage:
@@ -3087,7 +3087,7 @@ Note: This command is unaware of workspaces.
 #### \`shell\`
 `
 
-exports[`test/lib/docs.js TAP usage find-dupes > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > find-dupes > must match snapshot 1`] = `
 Find duplication in the package tree
 
 Usage:
@@ -3125,7 +3125,7 @@ npm find-dupes
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage fund > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > fund > must match snapshot 1`] = `
 Retrieve funding information
 
 Usage:
@@ -3149,7 +3149,7 @@ npm fund [<package-spec>]
 #### \`which\`
 `
 
-exports[`test/lib/docs.js TAP usage get > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > get > must match snapshot 1`] = `
 Get a value from the npm configuration
 
 Usage:
@@ -3169,7 +3169,7 @@ Note: This command is unaware of workspaces.
 #### \`long\`
 `
 
-exports[`test/lib/docs.js TAP usage help > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > help > must match snapshot 1`] = `
 Get help on npm
 
 Usage:
@@ -3193,7 +3193,7 @@ Note: This command is unaware of workspaces.
 #### \`viewer\`
 `
 
-exports[`test/lib/docs.js TAP usage help-search > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > help-search > must match snapshot 1`] = `
 Search npm help documentation
 
 Usage:
@@ -3213,7 +3213,7 @@ Note: This command is unaware of workspaces.
 #### \`long\`
 `
 
-exports[`test/lib/docs.js TAP usage init > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > init > must match snapshot 1`] = `
 Create a package.json file
 
 Usage:
@@ -3253,7 +3253,7 @@ aliases: create, innit
 #### \`include-workspace-root\`
 `
 
-exports[`test/lib/docs.js TAP usage install > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > install > must match snapshot 1`] = `
 Install a package
 
 Usage:
@@ -3308,7 +3308,7 @@ aliases: add, i, in, ins, inst, insta, instal, isnt, isnta, isntal, isntall
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage install-ci-test > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > install-ci-test > must match snapshot 1`] = `
 Install a project with a clean slate and run tests
 
 Usage:
@@ -3351,7 +3351,7 @@ aliases: cit, clean-install-test, sit
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage install-test > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > install-test > must match snapshot 1`] = `
 Install package(s) and run tests
 
 Usage:
@@ -3406,7 +3406,7 @@ alias: it
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage link > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > link > must match snapshot 1`] = `
 Symlink a package folder
 
 Usage:
@@ -3454,7 +3454,7 @@ alias: ln
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage ll > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > ll > must match snapshot 1`] = `
 List installed packages
 
 Usage:
@@ -3495,7 +3495,7 @@ alias: la
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage login > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > login > must match snapshot 1`] = `
 Login to a registry user account
 
 Usage:
@@ -3517,7 +3517,7 @@ Note: This command is unaware of workspaces.
 #### \`auth-type\`
 `
 
-exports[`test/lib/docs.js TAP usage logout > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > logout > must match snapshot 1`] = `
 Log out of the registry
 
 Usage:
@@ -3538,7 +3538,7 @@ Note: This command is unaware of workspaces.
 #### \`scope\`
 `
 
-exports[`test/lib/docs.js TAP usage ls > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > ls > must match snapshot 1`] = `
 List installed packages
 
 Usage:
@@ -3579,7 +3579,7 @@ alias: list
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage npm > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > npm > must match snapshot 1`] = `
 \`\`\`bash
 npm
 \`\`\`
@@ -3589,7 +3589,7 @@ Note: This command is unaware of workspaces.
 NO PARAMS
 `
 
-exports[`test/lib/docs.js TAP usage npx > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > npx > must match snapshot 1`] = `
 \`\`\`bash
 npx -- <pkg>[@<version>] [args...]
 npx --package=<pkg>[@<version>] -- <cmd> [args...]
@@ -3600,7 +3600,7 @@ npx --package=foo -c '<cmd> [args...]'
 NO PARAMS
 `
 
-exports[`test/lib/docs.js TAP usage org > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > org > must match snapshot 1`] = `
 Manage orgs
 
 Usage:
@@ -3631,7 +3631,7 @@ Note: This command is unaware of workspaces.
 #### \`parseable\`
 `
 
-exports[`test/lib/docs.js TAP usage outdated > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > outdated > must match snapshot 1`] = `
 Check for outdated packages
 
 Usage:
@@ -3655,7 +3655,7 @@ npm outdated [<package-spec> ...]
 #### \`workspace\`
 `
 
-exports[`test/lib/docs.js TAP usage owner > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > owner > must match snapshot 1`] = `
 Manage package owners
 
 Usage:
@@ -3686,7 +3686,7 @@ alias: author
 #### \`workspaces\`
 `
 
-exports[`test/lib/docs.js TAP usage pack > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > pack > must match snapshot 1`] = `
 Create a tarball from a package
 
 Usage:
@@ -3712,7 +3712,7 @@ npm pack <package-spec>
 #### \`ignore-scripts\`
 `
 
-exports[`test/lib/docs.js TAP usage ping > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > ping > must match snapshot 1`] = `
 Ping npm registry
 
 Usage:
@@ -3732,7 +3732,7 @@ Note: This command is unaware of workspaces.
 #### \`registry\`
 `
 
-exports[`test/lib/docs.js TAP usage pkg > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > pkg > must match snapshot 1`] = `
 Manages your package.json
 
 Usage:
@@ -3765,7 +3765,7 @@ npm pkg fix
 #### \`workspaces\`
 `
 
-exports[`test/lib/docs.js TAP usage prefix > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > prefix > must match snapshot 1`] = `
 Display prefix
 
 Usage:
@@ -3785,7 +3785,7 @@ Note: This command is unaware of workspaces.
 #### \`global\`
 `
 
-exports[`test/lib/docs.js TAP usage profile > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > profile > must match snapshot 1`] = `
 Change settings on your registry profile
 
 Usage:
@@ -3814,7 +3814,7 @@ Note: This command is unaware of workspaces.
 #### \`otp\`
 `
 
-exports[`test/lib/docs.js TAP usage prune > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > prune > must match snapshot 1`] = `
 Remove extraneous packages
 
 Usage:
@@ -3845,7 +3845,7 @@ npm prune [[<@scope>/]<pkg>...]
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage publish > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > publish > must match snapshot 1`] = `
 Publish a package
 
 Usage:
@@ -3873,7 +3873,7 @@ npm publish <package-spec>
 #### \`provenance-file\`
 `
 
-exports[`test/lib/docs.js TAP usage query > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > query > must match snapshot 1`] = `
 Retrieve a filtered list of packages
 
 Usage:
@@ -3900,7 +3900,7 @@ npm query <selector>
 #### \`expect-result-count\`
 `
 
-exports[`test/lib/docs.js TAP usage rebuild > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > rebuild > must match snapshot 1`] = `
 Rebuild a package
 
 Usage:
@@ -3931,7 +3931,7 @@ alias: rb
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage repo > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > repo > must match snapshot 1`] = `
 Open package repository page in the browser
 
 Usage:
@@ -3955,7 +3955,7 @@ npm repo [<pkgname> [<pkgname> ...]]
 #### \`include-workspace-root\`
 `
 
-exports[`test/lib/docs.js TAP usage restart > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > restart > must match snapshot 1`] = `
 Restart a package
 
 Usage:
@@ -3974,7 +3974,7 @@ npm restart [-- <args>]
 #### \`script-shell\`
 `
 
-exports[`test/lib/docs.js TAP usage root > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > root > must match snapshot 1`] = `
 Display npm root
 
 Usage:
@@ -3994,7 +3994,7 @@ Note: This command is unaware of workspaces.
 #### \`global\`
 `
 
-exports[`test/lib/docs.js TAP usage run-script > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > run-script > must match snapshot 1`] = `
 Run arbitrary package scripts
 
 Usage:
@@ -4024,7 +4024,7 @@ aliases: run, rum, urn
 #### \`script-shell\`
 `
 
-exports[`test/lib/docs.js TAP usage sbom > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > sbom > must match snapshot 1`] = `
 Generate a Software Bill of Materials (SBOM)
 
 Usage:
@@ -4051,7 +4051,7 @@ npm sbom
 #### \`workspaces\`
 `
 
-exports[`test/lib/docs.js TAP usage search > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > search > must match snapshot 1`] = `
 Search for packages
 
 Usage:
@@ -4088,7 +4088,7 @@ Note: This command is unaware of workspaces.
 #### \`offline\`
 `
 
-exports[`test/lib/docs.js TAP usage set > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > set > must match snapshot 1`] = `
 Set a value in the npm configuration
 
 Usage:
@@ -4109,7 +4109,7 @@ Note: This command is unaware of workspaces.
 #### \`location\`
 `
 
-exports[`test/lib/docs.js TAP usage shrinkwrap > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > shrinkwrap > must match snapshot 1`] = `
 Lock down dependency versions for publication
 
 Usage:
@@ -4126,7 +4126,7 @@ Note: This command is unaware of workspaces.
 NO PARAMS
 `
 
-exports[`test/lib/docs.js TAP usage star > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > star > must match snapshot 1`] = `
 Mark your favorite packages
 
 Usage:
@@ -4148,7 +4148,7 @@ Note: This command is unaware of workspaces.
 #### \`otp\`
 `
 
-exports[`test/lib/docs.js TAP usage stars > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > stars > must match snapshot 1`] = `
 View packages marked as favorites
 
 Usage:
@@ -4168,7 +4168,7 @@ Note: This command is unaware of workspaces.
 #### \`registry\`
 `
 
-exports[`test/lib/docs.js TAP usage start > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > start > must match snapshot 1`] = `
 Start a package
 
 Usage:
@@ -4187,7 +4187,7 @@ npm start [-- <args>]
 #### \`script-shell\`
 `
 
-exports[`test/lib/docs.js TAP usage stop > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > stop > must match snapshot 1`] = `
 Stop a package
 
 Usage:
@@ -4206,7 +4206,7 @@ npm stop [-- <args>]
 #### \`script-shell\`
 `
 
-exports[`test/lib/docs.js TAP usage team > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > team > must match snapshot 1`] = `
 Manage organization teams and team memberships
 
 Usage:
@@ -4237,7 +4237,7 @@ Note: This command is unaware of workspaces.
 #### \`json\`
 `
 
-exports[`test/lib/docs.js TAP usage test > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > test > must match snapshot 1`] = `
 Test a package
 
 Usage:
@@ -4260,7 +4260,7 @@ aliases: tst, t
 #### \`script-shell\`
 `
 
-exports[`test/lib/docs.js TAP usage token > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > token > must match snapshot 1`] = `
 Manage your authentication tokens
 
 Usage:
@@ -4288,7 +4288,7 @@ Note: This command is unaware of workspaces.
 #### \`otp\`
 `
 
-exports[`test/lib/docs.js TAP usage undeprecate > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > undeprecate > must match snapshot 1`] = `
 Undeprecate a version of a package
 
 Usage:
@@ -4310,7 +4310,7 @@ Note: This command is unaware of workspaces.
 #### \`dry-run\`
 `
 
-exports[`test/lib/docs.js TAP usage uninstall > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > uninstall > must match snapshot 1`] = `
 Remove a package
 
 Usage:
@@ -4340,7 +4340,7 @@ aliases: unlink, remove, rm, r, un
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage unpublish > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > unpublish > must match snapshot 1`] = `
 Remove a package from the registry
 
 Usage:
@@ -4363,7 +4363,7 @@ npm unpublish [<package-spec>]
 #### \`workspaces\`
 `
 
-exports[`test/lib/docs.js TAP usage unstar > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > unstar > must match snapshot 1`] = `
 Remove an item from your favorite packages
 
 Usage:
@@ -4385,7 +4385,7 @@ Note: This command is unaware of workspaces.
 #### \`otp\`
 `
 
-exports[`test/lib/docs.js TAP usage update > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > update > must match snapshot 1`] = `
 Update packages
 
 Usage:
@@ -4433,7 +4433,7 @@ aliases: up, upgrade, udpate
 #### \`install-links\`
 `
 
-exports[`test/lib/docs.js TAP usage version > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > version > must match snapshot 1`] = `
 Bump a package version
 
 Usage:
@@ -4467,7 +4467,7 @@ alias: verison
 #### \`include-workspace-root\`
 `
 
-exports[`test/lib/docs.js TAP usage view > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > view > must match snapshot 1`] = `
 View registry info
 
 Usage:
@@ -4493,7 +4493,7 @@ aliases: info, show, v
 #### \`include-workspace-root\`
 `
 
-exports[`test/lib/docs.js TAP usage whoami > must match snapshot 1`] = `
+exports[`test/lib/docs.js > TAP > usage > whoami > must match snapshot 1`] = `
 Display npm username
 
 Usage:

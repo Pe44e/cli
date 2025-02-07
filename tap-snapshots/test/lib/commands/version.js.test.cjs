@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/version.js TAP empty versions workspaces with one arg, all workspaces > must match snapshot 1`] = `
+exports[`test/lib/commands/version.js > TAP > empty versions > workspaces > with one arg, all workspaces > must match snapshot 1`] = `
 {
   "name": "workspaces-test",
   "version": "1.0.0",
@@ -39,7 +39,7 @@ exports[`test/lib/commands/version.js TAP empty versions workspaces with one arg
 
 `
 
-exports[`test/lib/commands/version.js TAP empty versions workspaces with one arg, all workspaces, saves package.json > must match snapshot 1`] = `
+exports[`test/lib/commands/version.js > TAP > empty versions > workspaces > with one arg, all workspaces, saves package.json > must match snapshot 1`] = `
 {
   "name": "workspaces-test",
   "version": "1.0.0",

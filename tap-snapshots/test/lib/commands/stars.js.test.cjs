@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/stars.js TAP no args > should output a list of starred packages 1`] = `
+exports[`test/lib/commands/stars.js > TAP > no args > should output a list of starred packages 1`] = `
 @npmcli/arborist
 @npmcli/map-workspaces
 libnpmfund

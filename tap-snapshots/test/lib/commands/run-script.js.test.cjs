@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/run-script.js TAP list scripts no args > basic report 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > list scripts > no args > basic report 1`] = `
 Lifecycle scripts included in x@1.2.3:
   test
     exit 2
@@ -20,7 +20,7 @@ available via \`npm run-script\`:
     echo after the env
 `
 
-exports[`test/lib/commands/run-script.js TAP list scripts parseable > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > list scripts > parseable > must match snapshot 1`] = `
 test:exit 2
 start:node server.js
 stop:node kill-server.js
@@ -28,7 +28,7 @@ preenv:echo before the env
 postenv:echo after the env
 `
 
-exports[`test/lib/commands/run-script.js TAP list scripts warn json > json report 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > list scripts > warn json > json report 1`] = `
 {
   "test": "exit 2",
   "start": "node server.js",
@@ -38,27 +38,27 @@ exports[`test/lib/commands/run-script.js TAP list scripts warn json > json repor
 }
 `
 
-exports[`test/lib/commands/run-script.js TAP list scripts, only commands > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > list scripts, only commands > must match snapshot 1`] = `
 Lifecycle scripts included in x@1.2.3:
   preversion
     echo doing the version dance
 `
 
-exports[`test/lib/commands/run-script.js TAP list scripts, only non-commands > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > list scripts, only non-commands > must match snapshot 1`] = `
 Scripts available in x@1.2.3 via \`npm run-script\`:
   glorp
     echo doing the glerp glop
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces failed workspace run with succeeded runs > should log error msgs for each workspace script 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > failed workspace run with succeeded runs > should log error msgs for each workspace script 1`] = `
 Lifecycle script \`glorp\` failed with error:
 code ERR
 workspace a@1.0.0
-location {CWD}/prefix/packages/a
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-failed-workspace-run-with-succeeded-runs/prefix/packages/a
 ERR
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces list all scripts --json > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > list all scripts --json > must match snapshot 1`] = `
 {
   "a": {
     "glorp": "echo a doing the glerp glop"
@@ -83,7 +83,7 @@ exports[`test/lib/commands/run-script.js TAP workspaces list all scripts --json 
 }
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces list all scripts --parseable > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > list all scripts --parseable > must match snapshot 1`] = `
 a:glorp:echo a doing the glerp glop
 b:glorp:echo b doing the glerp glop
 c:test:exit 0
@@ -95,7 +95,7 @@ e:test:exit 0
 e:start:echo start something
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces list all scripts > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > list all scripts > must match snapshot 1`] = `
 Scripts available in a@1.0.0 via \`npm run-script\`:
   glorp
     echo a doing the glerp glop
@@ -126,7 +126,7 @@ Lifecycle scripts included in e:
     echo start something
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces list all scripts with colors > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > list all scripts with colors > must match snapshot 1`] = `
 [0m[1mScripts[22m[0m available in [36ma@1.0.0[39m via \`[34mnpm run-script[39m\`:
   glorp
     [2mecho a doing the glerp glop[22m
@@ -157,7 +157,7 @@ available via \`[34mnpm run-script[39m\`:
     [2mecho start something[22m
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces list regular scripts, filtered by name > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > list regular scripts, filtered by name > must match snapshot 1`] = `
 Scripts available in a@1.0.0 via \`npm run-script\`:
   glorp
     echo a doing the glerp glop
@@ -167,7 +167,7 @@ Scripts available in b@2.0.0 via \`npm run-script\`:
     echo b doing the glerp glop
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces list regular scripts, filtered by parent folder > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > list regular scripts, filtered by parent folder > must match snapshot 1`] = `
 Scripts available in a@1.0.0 via \`npm run-script\`:
   glorp
     echo a doing the glerp glop
@@ -198,77 +198,77 @@ Lifecycle scripts included in e:
     echo start something
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces list regular scripts, filtered by path > must match snapshot 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > list regular scripts, filtered by path > must match snapshot 1`] = `
 Scripts available in a@1.0.0 via \`npm run-script\`:
   glorp
     echo a doing the glerp glop
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces missing scripts in all workspaces > should log error msgs for each workspace script 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > missing scripts in all workspaces > should log error msgs for each workspace script 1`] = `
 Lifecycle script \`missing-script\` failed with error:
 workspace a@1.0.0
-location {CWD}/prefix/packages/a
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/a
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=a@1.0.0
 Lifecycle script \`missing-script\` failed with error:
 workspace b@2.0.0
-location {CWD}/prefix/packages/b
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/b
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=b@2.0.0
 Lifecycle script \`missing-script\` failed with error:
 workspace c@1.0.0
-location {CWD}/prefix/packages/c
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/c
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=c@1.0.0
 Lifecycle script \`missing-script\` failed with error:
 workspace d@1.0.0
-location {CWD}/prefix/packages/d
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/d
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=d@1.0.0
 Lifecycle script \`missing-script\` failed with error:
 workspace e
-location {CWD}/prefix/packages/e
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/e
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=e
 Lifecycle script \`missing-script\` failed with error:
 workspace noscripts@1.0.0
-location {CWD}/prefix/packages/noscripts
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/noscripts
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=noscripts@1.0.0
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces missing scripts in some workspaces > should log error msgs for each workspace script 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > missing scripts in some workspaces > should log error msgs for each workspace script 1`] = `
 Lifecycle script \`test\` failed with error:
 workspace a@1.0.0
-location {CWD}/prefix/packages/a
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-some-workspaces/prefix/packages/a
 Missing script: "test"
 npm error
 To see a list of scripts, run:
   npm run --workspace=a@1.0.0
 Lifecycle script \`test\` failed with error:
 workspace b@2.0.0
-location {CWD}/prefix/packages/b
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-some-workspaces/prefix/packages/b
 Missing script: "test"
 npm error
 To see a list of scripts, run:
   npm run --workspace=b@2.0.0
 `
 
-exports[`test/lib/commands/run-script.js TAP workspaces single failed workspace run > should log error msgs for each workspace script 1`] = `
+exports[`test/lib/commands/run-script.js > TAP > workspaces > single failed workspace run > should log error msgs for each workspace script 1`] = `
 Lifecycle script \`test\` failed with error:
 workspace c@1.0.0
-location {CWD}/prefix/packages/c
+location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-single-failed-workspace-run/prefix/packages/c
 err
 `

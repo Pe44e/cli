@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/npm.js TAP npm.load workspace-aware configs and commands > should exec workspaces version of commands 1`] = `
+exports[`test/lib/npm.js > TAP > npm.load > workspace-aware configs and commands > should exec workspaces version of commands 1`] = `
 Lifecycle scripts included in a@1.0.0:
   test
     echo test a
@@ -15,7 +15,7 @@ Lifecycle scripts included in b@1.0.0:
     echo test b
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 0 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 0 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -52,7 +52,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {NPMROOT}
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 1 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 1 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -105,7 +105,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {NPMROOT}
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 10 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 10 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -158,7 +158,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {NPMROOT}
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 100 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 100 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -195,7 +195,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {NPMROOT}
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 24 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 24 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -248,7 +248,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {NPMROOT}
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 40 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 40 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -301,7 +301,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {NPMROOT}
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 41 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 41 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -352,7 +352,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {NPMROOT}
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 75 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 75 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -389,7 +389,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {NPMROOT}
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 76 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 76 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
@@ -426,7 +426,7 @@ Configuration fields: npm help 7 config
 npm@{VERSION} {NPMROOT}
 `
 
-exports[`test/lib/npm.js TAP usage set process.stdout.columns column width 90 > must match snapshot 1`] = `
+exports[`test/lib/npm.js > TAP > usage > set process.stdout.columns > column width 90 > must match snapshot 1`] = `
 npm <command>
 
 Usage:
