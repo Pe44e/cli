@@ -20,11 +20,7 @@ const roots = [
   'optofdev',
   'other',
   'root',
-  // This test flakes out on Apple Silicon
-  // https://github.com/npm/cli/pull/7411
-  process.platform === 'darwin' && process.arch === 'arm64'
-    ? null
-    : 'selflink',
+  'selflink',
   'symlinked-node-modules/example',
   'workspace',
   'workspace2',
