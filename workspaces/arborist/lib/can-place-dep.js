@@ -384,7 +384,7 @@ class CanPlaceDep {
         // always place peers in preferDedupe mode
         preferDedupe: true,
       })
-      /* istanbul ignore next */
+      /* c8 ignore next */
       debug(() => {
         if (this.children.some(c => c.dep === cpp.dep)) {
           throw new Error('checking same dep repeatedly')

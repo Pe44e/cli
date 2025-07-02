@@ -1,5 +1,40 @@
 # Changelog
 
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.1.1): `@npmcli/arborist@9.1.1`
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.1.2): `@npmcli/arborist@9.1.2`
+
+## [10.1.2](https://github.com/npm/cli/compare/libnpmexec-v10.1.1...libnpmexec-v10.1.2) (2025-05-15)
+### Bug Fixes
+* [`fdc3413`](https://github.com/npm/cli/commit/fdc3413019c2f34f1fde35449e5f3a6b0fb51ba2) [#8221](https://github.com/npm/cli/pull/8221) exec: Fails to Execute Binaries Named After Shell Keywords (#8221) (@13sfaith)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.1.0): `@npmcli/arborist@9.1.0`
+
+## [10.1.1](https://github.com/npm/cli/compare/libnpmexec-v10.1.0...libnpmexec-v10.1.1) (2025-04-08)
+### Bug Fixes
+* [`386f328`](https://github.com/npm/cli/commit/386f32898067d8ae17a160271bf1bc1832e6ebb4) [#8154](https://github.com/npm/cli/pull/8154) npx: always save true when installing to npx cache (#8154) (@milaninfy)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.0.2): `@npmcli/arborist@9.0.2`
+
+## [10.1.0](https://github.com/npm/cli/compare/libnpmexec-v10.0.0...libnpmexec-v10.1.0) (2025-03-05)
+### Features
+* [`d18d422`](https://github.com/npm/cli/commit/d18d422e081fbf33a0671cbd83a64531c485f940) [#8100](https://github.com/npm/cli/pull/8100) add context to npx cache package.json (@wraithgar)
+### Bug Fixes
+* [`8461186`](https://github.com/npm/cli/commit/846118686849f821b084775f7891038013f7ba97) [#8100](https://github.com/npm/cli/pull/8100) update npx cache if possible when spec is a range (@wraithgar)
+### Dependencies
+* [`3d8b257`](https://github.com/npm/cli/commit/3d8b257bd667e76e74236c756aaa2dceaa6d6e5e) [#8100](https://github.com/npm/cli/pull/8100) `@npmcli/package-json@6.1.1`
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.0.1): `@npmcli/arborist@9.0.1`
+
 ## [10.0.0](https://github.com/npm/cli/compare/libnpmexec-v10.0.0-pre.1...libnpmexec-v10.0.0) (2024-12-16)
 ### Features
 * [`a7bfc6d`](https://github.com/npm/cli/commit/a7bfc6df76882996ebb834dbca785fdf33b8c50d) [#7972](https://github.com/npm/cli/pull/7972) trigger release process (#7972) (@wraithgar)

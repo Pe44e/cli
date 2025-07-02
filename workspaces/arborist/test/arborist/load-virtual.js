@@ -204,6 +204,12 @@ t.test('workspaces', t => {
     ).then(tree =>
       t.matchSnapshot(printTree(tree), 'virtual tree ignoring nested node_modules')))
 
+  t.test('load installed workspace with dependency overrides', t =>
+    loadVirtual(
+      resolve(__dirname, '../fixtures/workspaces-with-overrides')
+    ).then(tree =>
+      t.matchSnapshot(printTree(tree), 'virtual tree with overrides')))
+
   t.end()
 })
 
@@ -238,4 +244,45 @@ t.test('do not bundle the entire universe', async t => {
     'tap-yaml',
     'yaml',
   ].sort())
+})
+
+t.test('error when link target is missing', async t => {
+  const path = t.testdir({
+    'package.json': JSON.stringify({
+      name: 'root',
+      workspaces: ['packages/*'],
+    }),
+    'package-lock.json': JSON.stringify({
+      name: 'root',
+      lockfileVersion: 3,
+      packages: {
+        '': {
+          workspaces: ['packages/*'],
+        },
+        // This is the problematic entry - a link with no corresponding target
+        'node_modules/@my-scope/my-package': {
+          resolved: 'packages/some-folder/my-package',
+          link: true,
+        },
+        // Missing entry for 'packages/some-folder/my-package'
+      },
+    }),
+    packages: {
+      'some-folder': {
+        'my-package': {
+          'package.json': JSON.stringify({
+            name: '@my-scope/my-package',
+            version: '1.0.0',
+          }),
+        },
+      },
+    },
+  })
+
+  const arb = new Arborist({ path })
+
+  await t.rejects(arb.loadVirtual(), {
+    code: 'EMISSINGTARGET',
+    message: /Missing target in lock file:.*but does not exist/,
+  })
 })

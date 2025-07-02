@@ -1,5 +1,38 @@
 # Changelog
 
+## [9.1.2](https://github.com/npm/cli/compare/arborist-v9.1.1...arborist-v9.1.2) (2025-06-11)
+### Bug Fixes
+* [`887385d`](https://github.com/npm/cli/commit/887385d7c0b6b584e0973a1f667c3b22eafc6e28) [#8356](https://github.com/npm/cli/pull/8356) arborist: use hosted-git-info to correctly parse resolved git urls (#8356) (@milaninfy)
+
+## [9.1.1](https://github.com/npm/cli/compare/arborist-v9.1.0...arborist-v9.1.1) (2025-05-21)
+### Bug Fixes
+* [`8f6eb6b`](https://github.com/npm/cli/commit/8f6eb6b29904b5a807c5c4c01c1246afc70a77f1) [#8312](https://github.com/npm/cli/pull/8312) arborist: fix file dep making wrong link (#8312) (@alexsch01)
+
+## [9.1.0](https://github.com/npm/cli/compare/arborist-v9.0.2...arborist-v9.1.0) (2025-05-15)
+### Features
+* [`57aa89f`](https://github.com/npm/cli/commit/57aa89ff70e0c6186a43888b944b5799b25c7bc8) [#8265](https://github.com/npm/cli/pull/8265) use run by default and run-script as the alias (#8265) (@owlstronaut)
+### Bug Fixes
+* [`d5bcf38`](https://github.com/npm/cli/commit/d5bcf38764dfd05c7677602ae1c22b3a7bfdb486) [#8268](https://github.com/npm/cli/pull/8268) arborist: Add better error message when lockfile is malformed (#8268) (@owlstronaut)
+* [`5e1fed9`](https://github.com/npm/cli/commit/5e1fed9f5e8d0ae05e67a3fe644d6e87d0559b7a) [#8290](https://github.com/npm/cli/pull/8290) arborist: improve README markdown (#8290) (@mbtools)
+* [`0886e7a`](https://github.com/npm/cli/commit/0886e7abced0d8bdfd564a3b254817ecbdc14857) [#8222](https://github.com/npm/cli/pull/8222) preserve registry path when replacing a host (@owlstronaut)
+* [`815311b`](https://github.com/npm/cli/commit/815311b9b8848585f8944f1f2684f10282525cf2) [#8206](https://github.com/npm/cli/pull/8206) arborist: workspaces correctly path to file: packages from overrides (@owlstronaut)
+
+## [9.0.2](https://github.com/npm/cli/compare/arborist-v9.0.1...arborist-v9.0.2) (2025-04-08)
+### Bug Fixes
+* [`a96d8f6`](https://github.com/npm/cli/commit/a96d8f6295886c219076178460718837d2fe45d6) [#8184](https://github.com/npm/cli/pull/8184) arborist: omit failed optional dependencies from installed deps (#8184) (@owlstronaut, @zkat)
+* [`04f53ce`](https://github.com/npm/cli/commit/04f53ce13201b460123067d7153f1681342548e1) [#8180](https://github.com/npm/cli/pull/8180) arborist: safely fallback on unresolved $ dependency references (#8180) (@owlstronaut)
+* [`885accd`](https://github.com/npm/cli/commit/885accdc750dd45fc9e4b5faf11bcc81292e17ad) [#8185](https://github.com/npm/cli/pull/8185) arborist: only replace hostname for resolved URL (#8185) (@billy-briggs-dev)
+* [`8b7bb12`](https://github.com/npm/cli/commit/8b7bb12617e80f3e5061c96d06dd723331fffa2d) [#8168](https://github.com/npm/cli/pull/8168) arborist: Allow downgrades to hoisted version dedupe workspace i… (#8168) (@owlstronaut)
+* [`1642556`](https://github.com/npm/cli/commit/1642556fe47d837ab7d0800d96bd2eebd0c908fd) [#8160](https://github.com/npm/cli/pull/8160) arborist: workspaces respect overrides on subsequent installs (#8160) (@owlstronaut)
+### Chores
+* [`88a7b52`](https://github.com/npm/cli/commit/88a7b52a69ba6a4f44216220d09000bf8468cae1) [#8174](https://github.com/npm/cli/pull/8174) add load-virtual and reify tests for workspace override test coverage (#8174) (@owlstronaut, @TrevorBurnham)
+
+## [9.0.1](https://github.com/npm/cli/compare/arborist-v9.0.0...arborist-v9.0.1) (2025-03-05)
+### Bug Fixes
+* [`b9225e5`](https://github.com/npm/cli/commit/b9225e524074239bd8db9a27f3e9ab72f2b5c09e) [#8089](https://github.com/npm/cli/pull/8089) resolve override conflicts and apply correct versions (#8089) (@owlstronaut)
+* [`d586f3b`](https://github.com/npm/cli/commit/d586f3b6da5cf864254e894efd3105ad52266599) [#8117](https://github.com/npm/cli/pull/8117) remove duplicate var (#8117) (@TrevorBurnham)
+* [`811ca29`](https://github.com/npm/cli/commit/811ca2927eed733c8fabf308bf9d467e7c959163) [#8115](https://github.com/npm/cli/pull/8115) stop working around bug fixed in `npm-package-arg@12.0.2` (@TrevorBurnham)
+
 ## [9.0.0](https://github.com/npm/cli/compare/arborist-v9.0.0-pre.1...arborist-v9.0.0) (2024-12-16)
 ### Features
 * [`a7bfc6d`](https://github.com/npm/cli/commit/a7bfc6df76882996ebb834dbca785fdf33b8c50d) [#7972](https://github.com/npm/cli/pull/7972) trigger release process (#7972) (@wraithgar)

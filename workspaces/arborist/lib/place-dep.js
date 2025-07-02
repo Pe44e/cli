@@ -172,7 +172,7 @@ class PlaceDep {
     // now we have a target, a tree of CanPlaceDep results for the peer group,
     // and we are ready to go
 
-    /* istanbul ignore next */
+    /* c8 ignore next */
     if (!this.canPlace) {
       debug(() => {
         throw new Error('canPlace not set, but trying to place in tree')
@@ -423,7 +423,7 @@ class PlaceDep {
   // is another satisfying node further up the tree, and if so, dedupes.
   // Even in installStategy is nested, we do this amount of deduplication.
   pruneDedupable (node, descend = true) {
-    if (node.canDedupe(this.preferDedupe)) {
+    if (node.canDedupe(this.preferDedupe, this.explicitRequest)) {
       // gather up all deps that have no valid edges in from outside
       // the dep set, except for this node we're deduping, so that we
       // also prune deps that would be made extraneous.

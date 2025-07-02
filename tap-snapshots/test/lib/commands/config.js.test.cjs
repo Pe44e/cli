@@ -76,6 +76,7 @@ exports[`test/lib/commands/config.js > TAP > config list --json > output matches
   "init-module": "{CWD}/home/.npm-init.js",
   "init-type": "commonjs",
   "init-version": "1.0.0",
+  "init-private": false,
   "init.author.email": "",
   "init.author.name": "",
   "init.author.url": "",
@@ -98,6 +99,7 @@ exports[`test/lib/commands/config.js > TAP > config list --json > output matches
   "long": false,
   "maxsockets": 15,
   "message": "%s",
+  "node-gyp": "{CWD}/node_modules/node-gyp/bin/node-gyp.js",
   "node-options": null,
   "noproxy": [
     ""
@@ -238,6 +240,7 @@ init-author-name = ""
 init-author-url = ""
 init-license = "ISC"
 init-module = "{CWD}/home/.npm-init.js"
+init-private = false
 init-type = "commonjs"
 init-version = "1.0.0"
 init.author.email = ""
@@ -263,6 +266,7 @@ logs-max = 10
 ; long = false ; overridden by cli
 maxsockets = 15
 message = "%s"
+node-gyp = "{CWD}/node_modules/node-gyp/bin/node-gyp.js"
 node-options = null
 noproxy = [""]
 npm-version = "{NPM-VERSION}"
