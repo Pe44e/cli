@@ -344,26 +344,27 @@ t.test('throw a string error', async (t) => {
   ])
 })
 
-t.test('update notification - shows even with loglevel error', async (t) => {
-  const { exitHandler, logs, npm } = await mockExitHandler(t, {
-    config: { loglevel: 'error' },
-  })
-  npm.updateNotification = 'you should update npm!'
-
-  await exitHandler()
-
-  t.match(logs.notice, ['you should update npm!'])
-})
-
-t.test('update notification - hidden with silent', async (t) => {
-  const { exitHandler, logs, npm } = await mockExitHandler(t, {
-    config: { loglevel: 'silent' },
-  })
-  npm.updateNotification = 'you should update npm!'
-
-  await exitHandler()
-
-  t.strictSame(logs.notice, [])
+t.test('update notification - shows even with every loglevel', async (t) => {
+  const loglevels = {
+    silent: false,
+    error: false,
+    warn: false,
+    notice: true,
+    http: true,
+    info: true,
+    verbose: true,
+    silly: true,
+  }
+  await Promise.all(Object.entries(loglevels).map(async ([loglevel, shouldLog]) => {
+    t.test(loglevel, async (t) => {
+      const { exitHandler, logs, npm } = await mockExitHandler(t, {
+        config: { loglevel },
+      })
+      npm.updateNotification = 'you should update npm!'
+      await exitHandler()
+      t.match(logs.notice, shouldLog ? ['you should update npm!'] : [])
+    })
+  }))
 })
 
 t.test('npm.config not ready', async (t) => {
