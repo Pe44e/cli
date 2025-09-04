@@ -105,7 +105,7 @@ t.test('init', async t => {
   const logs = await readLogs()
   t.equal(logs.length, 11, 'total log files')
   t.ok(logs.slice(0, 10).every(f => f.logs.length === maxLogsPerFile), 'max logs per file')
-  t.ok(last(logs).logs.length, 1, 'last file has remaining logs')
+  t.same(last(logs).logs.length, 4, 'last file has remaining logs')
   t.ok(logs.every(f => last(f.rawLogs) === ''), 'all logs end with newline')
   t.strictSame(
     logFile.files,
