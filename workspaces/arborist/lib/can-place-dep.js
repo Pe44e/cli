@@ -121,13 +121,14 @@ class CanPlaceDep {
         .map(([loc, { packageName, version, resolved }]) => {
           return [loc, packageName, version, resolved]
         }).sort(([a], [b]) => localeCompare(a, b)))
-      /* istanbul ignore if */
+      /* c8 ignore start */
       if (this._treeSnapshot !== treeSnapshot) {
         throw Object.assign(new Error('tree changed in CanPlaceDep'), {
           expect: this._treeSnapshot,
           actual: treeSnapshot,
         })
       }
+      /* c8 ignore stop */
     })
   }
 
@@ -216,7 +217,7 @@ class CanPlaceDep {
     // This is ignored because it SHOULD be redundant, as far as I can tell,
     // with the deepest target and target===edge.from tests.  But until we
     // can prove that isn't possible, this condition is here for safety.
-    /* istanbul ignore if - allegedly impossible */
+    /* c8 ignore next - allegedly impossible */
     if (!this.parent && !edge.peer) {
       return CONFLICT
     }
@@ -384,7 +385,7 @@ class CanPlaceDep {
         // always place peers in preferDedupe mode
         preferDedupe: true,
       })
-      /* istanbul ignore next */
+      /* c8 ignore next */
       debug(() => {
         if (this.children.some(c => c.dep === cpp.dep)) {
           throw new Error('checking same dep repeatedly')
@@ -429,7 +430,7 @@ class CanPlaceDep {
   get description () {
     const { canPlace } = this
     return canPlace && canPlace.description ||
-    /* istanbul ignore next - old node affordance */ canPlace
+    /* c8 ignore next - old node affordance */ canPlace
   }
 }
 

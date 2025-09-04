@@ -336,7 +336,7 @@ module.exports = cls => class Reifier extends cls {
         } catch (er) {
           // TODO rollbacks shouldn't be relied on to throw err
           await this[rollback](er)
-          /* istanbul ignore next - rollback throws, should never hit this */
+          /* c8 ignore next - rollback throws, should never hit this */
           throw er
         }
       }
@@ -616,13 +616,14 @@ module.exports = cls => class Reifier extends cls {
         // this can happen if we have a link to a package with a name
         // that the filesystem treats as if it is the same thing.
         // would be nice to have conditional istanbul ignores here...
-        /* istanbul ignore next - defense in depth */
+        /* c8 ignore start - defense in depth */
         if (st && !st.isDirectory()) {
           const retired = retirePath(d)
           this.#retiredPaths[d] = retired
           this[_trashList].add(retired)
           await this[_renamePath](d, retired)
         }
+        /* c8 ignore stop */
       }
       this.#sparseTreeDirs.add(node.path)
       const made = await mkdir(node.path, { recursive: true })
@@ -1190,7 +1191,7 @@ module.exports = cls => class Reifier extends cls {
 
       const { path: realFolder } = diff.actual
       const retireFolder = moves[realFolder]
-      /* istanbul ignore next - should be impossible */
+      /* c8 ignore start - should be impossible */
       debug(() => {
         if (!retireFolder) {
           const er = new Error('trying to un-retire but not retired')
@@ -1203,6 +1204,7 @@ module.exports = cls => class Reifier extends cls {
           })
         }
       })
+      /* c8 ignore stop */
 
       this.#retiredUnchanged[retireFolder] = []
       return promiseAllRejectLate(diff.unchanged.map(node => {

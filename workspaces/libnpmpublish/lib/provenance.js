@@ -18,7 +18,7 @@ const GITLAB_BUILD_TYPE_VERSION = 'v0alpha1'
 const generateProvenance = async (subject, opts) => {
   let payload
   if (ci.GITHUB_ACTIONS) {
-    /* istanbul ignore next - not covering missing env var case */
+    /* c8 ignore next - not covering missing env var case */
     const relativeRef = (env.GITHUB_WORKFLOW_REF || '').replace(env.GITHUB_REPOSITORY + '/', '')
     const delimiterIndex = relativeRef.indexOf('@')
     const workflowPath = relativeRef.slice(0, delimiterIndex)

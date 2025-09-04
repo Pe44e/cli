@@ -40,11 +40,12 @@ const untar = ({ files, refs }, { filterFiles, item, prefix }) => {
           entry.setEncoding('utf8')
           content = entry.concat()
         } catch (e) {
-          /* istanbul ignore next */
+          /* c8 ignore next */
           throw Object.assign(
             new Error('failed to read files'),
             { code: 'EDIFFUNTAR' }
           )
+          /* c8 ignore stop */
         }
 
         refs.set(`${prefix}${key}`, {
@@ -55,7 +56,7 @@ const untar = ({ files, refs }, { filterFiles, item, prefix }) => {
       }
     },
   })
-    .on('error', /* istanbul ignore next */ e => {
+    .on('error', /* c8 ignore next */ e => {
       throw e
     })
     .end(item)

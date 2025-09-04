@@ -144,7 +144,7 @@ const buildMetadata = async (registry, manifest, tarballData, spec, opts) => {
       log.notice('publish', `Signed provenance statement with source and build information from ${ciInfo.name}`)
 
       const tlogEntry = provenanceBundle?.verificationMaterial?.tlogEntries[0]
-      /* istanbul ignore else */
+      /* c8 ignore next */
       if (tlogEntry) {
         transparencyLogUrl = `${TLOG_BASE_URL}?logIndex=${tlogEntry.logIndex}`
         log.notice(
@@ -152,6 +152,7 @@ const buildMetadata = async (registry, manifest, tarballData, spec, opts) => {
           `Provenance statement published to transparency log: ${transparencyLogUrl}`
         )
       }
+      /* c8 ignore stop */
     } else {
       provenanceBundle = await verifyProvenance(subject, provenanceFile)
     }

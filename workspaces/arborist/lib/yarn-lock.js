@@ -47,7 +47,7 @@ const priorityThenLocaleCompare = (a, b) => {
   if (!yarnEntryPriorities[a] && !yarnEntryPriorities[b]) {
     return localeCompare(a, b)
   }
-  /* istanbul ignore next */
+  /* c8 ignore next */
   return (yarnEntryPriorities[a] || 100) > (yarnEntryPriorities[b] || 100) ? 1 : -1
 }
 

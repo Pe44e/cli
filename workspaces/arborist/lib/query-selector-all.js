@@ -808,10 +808,11 @@ const hasAscendant = (node, compareNodes, seen = new Set()) => {
   }
 
   if (node.isTop && node.resolveParent) {
-    /* istanbul ignore if - investigate if linksIn check obviates need for this */
+    /* c8 ignore start - investigate if linksIn check obviates need for this */
     if (hasAscendant(node.resolveParent, compareNodes)) {
       return true
     }
+    /* c8 ignore stop */
   }
   for (const edge of node.edgesIn) {
     // TODO Need a test with an infinite loop

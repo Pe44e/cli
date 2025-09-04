@@ -388,13 +388,14 @@ class Node {
     }
 
     this[_explanation] = null
-    /* istanbul ignore next - should be impossible */
+    /* c8 ignore start - should be impossible */
     if (!pkg || typeof pkg !== 'object') {
       debug(() => {
         throw new Error('setting Node.package to non-object')
       })
       pkg = {}
     }
+    /* c8 ignore stop */
     this[_package] = pkg
     this.#loadWorkspaces()
     this[_loadDeps]()
@@ -668,7 +669,7 @@ class Node {
         const ploc = relpath(root.realpath, p)
         const parent = root.inventory.get(ploc)
         if (parent) {
-          /* istanbul ignore next - impossible */
+          /* c8 ignore start - impossible */
           if (parent.isLink) {
             debug(() => {
               throw Object.assign(new Error('assigning parentage to link'), {
@@ -679,6 +680,7 @@ class Node {
             })
             continue
           }
+          /* c8 ignore stop */
           const childLoc = `${ploc}${ploc ? '/' : ''}node_modules/${this.name}`
           const isParent = this.location === childLoc
           if (isParent) {
@@ -769,12 +771,13 @@ class Node {
           continue
         }
 
-        /* istanbul ignore next - should be impossible */
+        /* c8 ignore start - should be impossible */
         debug(() => {
           if (node.root !== root) {
             throw new Error('inventory contains node from other root')
           }
         })
+        /* c8 ignore stop */
 
         if (this.isLink) {
           const target = node.target
@@ -787,7 +790,7 @@ class Node {
           }
           break
         } else {
-          /* istanbul ignore else - should be impossible */
+          /* c8 ignore start - should be impossible */
           if (node.isLink) {
             node[_target] = this
             node[_package] = this.package
@@ -804,6 +807,7 @@ class Node {
               })
             })
           }
+          /* c8 ignore stop */
         }
       }
     }
@@ -1317,12 +1321,13 @@ class Node {
     if (root.meta) {
       root.meta.delete(this.path)
     }
-    /* istanbul ignore next - should be impossible */
+    /* c8 ignore start - should be impossible */
     debug(() => {
       if ([...root.inventory.values()].includes(this)) {
         throw new Error('failed to delist')
       }
     })
+    /* c8 ignore stop */
   }
 
   // update this.path/realpath and the paths of all children/fsChildren

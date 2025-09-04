@@ -456,7 +456,7 @@ module.exports = cls => class IdealTreeBuilder extends cls {
           }
           const dir = resolve(nm, name)
           const st = await lstat(dir)
-            .catch(/* istanbul ignore next */ () => null)
+            .catch(/* c8 ignore next */ () => null)
           if (st && st.isSymbolicLink()) {
             const target = await readlink(dir)
             const real = resolve(dirname(dir), target)
@@ -916,12 +916,13 @@ This is a one-time fix-up, please be patient...
       const dep = vrDep && vrDep.satisfies(edge) ? vrDep
         : await this.#nodeFromEdge(edge, parent, null, required)
 
-      /* istanbul ignore next */
+      /* c8 ignore start */
       debug(() => {
         if (!dep) {
           throw new Error('no dep??')
         }
       })
+      /* c8 ignore stop */
 
       tasks.push({ edge, dep })
     }
@@ -973,7 +974,7 @@ This is a one-time fix-up, please be patient...
               }
             }
           } else {
-            /* istanbul ignore else - should be only OK or REPLACE here */
+            /* c8 ignore start - should be only OK or REPLACE here */
             if (cpd.canPlaceSelf === REPLACE) {
               // this may also create some invalid edges, for example if we're
               // intentionally causing something to get nested which was
@@ -992,9 +993,10 @@ This is a one-time fix-up, please be patient...
                 }
               }
             }
+            /* c8 ignore stop */
           }
 
-          /* istanbul ignore if - should be impossible */
+          /* c8 ignore start - should be impossible */
           if (cpd.canPlaceSelf === CONFLICT) {
             debug(() => {
               const er = new Error('placed with canPlaceSelf=CONFLICT')
@@ -1002,6 +1004,7 @@ This is a one-time fix-up, please be patient...
             })
             return
           }
+          /* c8 ignore stop */
 
           // lastly, also check for the missing deps of the node we placed,
           // and any holes created by pruning out conflicted peer sets.

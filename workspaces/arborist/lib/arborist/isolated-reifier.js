@@ -188,10 +188,11 @@ module.exports = cls => class IsolatedReifier extends cls {
       const nextEdge = queue.pop()
       const key = `${nextEdge.from.location}=>${nextEdge.to.location}`
       // should be impossible, unless bundled is duped
-      /* istanbul ignore next */
+      /* c8 ignore start */
       if (processed.has(key)) {
         continue
       }
+      /* c8 ignore stop */
       processed.add(key)
       const from = nextEdge.from
       if (!from.isRoot && !from.isWorkspace) {
@@ -203,10 +204,11 @@ module.exports = cls => class IsolatedReifier extends cls {
 
       to.edgesOut.forEach(e => {
         // an edge out should always have a to
-        /* istanbul ignore else */
+        /* c8 ignore start */
         if (e.to) {
           queue.push({ from: e.from, to: e.to })
         }
+        /* c8 ignore stop */
       })
     }
     return { edges, nodes }
@@ -310,10 +312,11 @@ module.exports = cls => class IsolatedReifier extends cls {
         edgesOut: new Map(),
         binPaths: [],
         fsChildren: [],
-        /* istanbul ignore next -- emulate Node */
+        /* c8 ignore start - - emulate Node */
         getBundler () {
           return null
         },
+        /* c8 ignore stop */
         hasShrinkwrap: false,
         inDepBundle: false,
         integrity: null,

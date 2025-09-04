@@ -4,7 +4,6 @@
 //
 // call like this:
 //
-// /* istanbul ignore next - debug check */
 // debug(() => {
 //   if (someExpensiveCheck)
 //     throw new Error('expensive check should have returned false')

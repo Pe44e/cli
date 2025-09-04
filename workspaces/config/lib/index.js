@@ -461,10 +461,11 @@ class Config {
         this.validate()
       } catch (err) {
         // coverage skipped here because we don't need to test re-throwing an error
-        // istanbul ignore next
+        /* c8 ignore start */
         if (err.code !== 'ERR_INVALID_AUTH') {
           throw err
         }
+        /* c8 ignore stop */
 
         problems = err.problems
       } finally {
@@ -476,10 +477,9 @@ class Config {
 
     for (const problem of problems) {
       // coverage disabled for else branch because it doesn't do anything and shouldn't
-      // istanbul ignore else
       if (problem.action === 'delete') {
         this.delete(problem.key, problem.where)
-      } else if (problem.action === 'rename') {
+      } /* c8 ignore next */ else if (problem.action === 'rename') {
         const raw = this.data.get(problem.where).raw?.[problem.from]
         const calculated = this.get(problem.from, problem.where)
         this.set(problem.to, raw || calculated, problem.where)

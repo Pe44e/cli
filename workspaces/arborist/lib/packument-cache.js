@@ -59,10 +59,11 @@ class PackumentCache extends LRUCache {
     // have already been evicted from the cache previously. logging here could help
     // us tune this in the future.
     const disposed = this.#disposed.has(k)
-    /* istanbul ignore next - this doesnt happen consistently so hard to test without resorting to unit tests  */
+    /* c8 ignore start - this doesnt happen consistently so hard to test without resorting to unit tests  */
     if (disposed) {
       this.#disposed.delete(k)
     }
+    /* c8 ignore stop */
     this.#log(k, 'set', `size:${v[this.#sizeKey]} disposed:${disposed}`)
     return super.set(k, v, ...args)
   }

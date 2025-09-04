@@ -78,12 +78,13 @@ class Inventory extends Map {
       }
       if (val && typeof val === 'object') {
         // We currently only use license and funding
-        /* istanbul ignore next - not used */
+        /* c8 ignore start - not used */
         if (key === 'license') {
           val = val.type
         } else if (key === 'funding') {
           val = val.url
         }
+        /* c8 ignore stop */
       }
       if (!map.has(val)) {
         map.set(val, new Set())

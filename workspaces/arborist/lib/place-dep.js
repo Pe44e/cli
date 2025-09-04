@@ -172,13 +172,14 @@ class PlaceDep {
     // now we have a target, a tree of CanPlaceDep results for the peer group,
     // and we are ready to go
 
-    /* istanbul ignore next */
+    /* c8 ignore start */
     if (!this.canPlace) {
       debug(() => {
         throw new Error('canPlace not set, but trying to place in tree')
       })
       return
     }
+    /* c8 ignore stop */
 
     const { target } = this.canPlace
 

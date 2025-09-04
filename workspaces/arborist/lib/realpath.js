@@ -10,10 +10,11 @@ const { resolve, basename, dirname } = require('node:path')
 
 const realpathCached = (path, rpcache, stcache, depth) => {
   // just a safety against extremely deep eloops
-  /* istanbul ignore next */
+  /* c8 ignore start */
   if (depth > 2000) {
     throw eloop(path)
   }
+  /* c8 ignore stop */
 
   path = resolve(path)
   if (rpcache.has(path)) {
@@ -66,10 +67,11 @@ const eloop = path =>
 const realpathChild = (dir, base, rpcache, stcache, depth) => {
   const realdir = rpcache.get(dir)
   // that unpossible
-  /* istanbul ignore next */
+  /* c8 ignore start */
   if (typeof realdir === 'undefined') {
     throw new Error('in realpathChild without parent being in realpath cache')
   }
+  /* c8 ignore stop */
 
   const realish = resolve(realdir, base)
   return lstatCached(realish, stcache).then(st => {

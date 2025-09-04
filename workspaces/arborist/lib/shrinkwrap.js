@@ -163,12 +163,13 @@ const assertNoNewer = async (path, data, lockTime, dir, seen) => {
     } else if (dirent.isSymbolicLink()) {
       const target = resolve(parent, await readlink(child))
       const tstat = await stat(target).catch(
-        /* istanbul ignore next - windows */ () => null)
+        /* c8 ignore next - windows */ () => null)
       seen.add(relpath(path, child))
-      /* istanbul ignore next - windows cannot do this */
+      /* c8 ignore start - windows cannot do this */
       if (tstat?.isDirectory() && !seen.has(relpath(path, target))) {
         await assertNoNewer(path, data, lockTime, target, seen)
       }
+      /* c8 ignore stop */
     }
   }))
 
@@ -389,12 +390,13 @@ class Shrinkwrap {
   get loadFiles () {
     return Promise.all(
       this.#filenameSet.map(file => file && readFile(file, 'utf8').then(d => d, er => {
-        /* istanbul ignore else - can't test without breaking module itself */
+        /* c8 ignore start - can't test without breaking module itself */
         if (er.code === 'ENOENT') {
           return ''
         } else {
           throw er
         }
+        /* c8 ignore stop */
       }))
     )
   }
@@ -404,12 +406,13 @@ class Shrinkwrap {
     // this way, since we're not actually loading the full lock metadata
     return Promise.all(this.#filenameSet.slice(0, 2)
       .map(file => file && stat(file).then(st => st.isFile(), er => {
-        /* istanbul ignore else - can't test without breaking module itself */
+        /* c8 ignore start - can't test without breaking module itself */
         if (er.code === 'ENOENT') {
           return null
         } else {
           throw er
         }
+        /* c8 ignore stop */
       })
       )
     )
@@ -470,13 +473,14 @@ class Shrinkwrap {
 
       // all good!  hidden lockfile is the newest thing in here.
     } catch (er) {
-      /* istanbul ignore else */
+      /* c8 ignore start */
       if (typeof this.filename === 'string') {
         const rel = relpath(this.path, this.filename)
         log.verbose('shrinkwrap', `failed to load ${rel}`, er.message)
       } else {
         log.verbose('shrinkwrap', `failed to load ${this.path}`, er.message)
       }
+      /* c8 ignore stop */
       this.loadingError = er
       this.loadedFromDisk = false
       this.ancientLockfile = false
@@ -575,13 +579,14 @@ class Shrinkwrap {
         // maybe should be an error, since it means that the shrinkwrap is
         // invalid, but we can't do much better without any info.
         let depType = 'dependencies'
-        /* istanbul ignore else - dev deps are only for the root level */
+        /* c8 ignore start - dev deps are only for the root level */
         if (dep?.optional && !meta.optional) {
           depType = 'optionalDependencies'
         } else if (dep?.dev && !meta.dev) {
           // XXX is this even reachable?
           depType = 'devDependencies'
         }
+        /* c8 ignore stop */
         if (!meta[depType]) {
           meta[depType] = {}
         }
@@ -1002,10 +1007,11 @@ class Shrinkwrap {
     const edge = [...node.edgesIn].filter(e => e.valid).sort((a, b) => {
       const aloc = a.from.location.split('node_modules')
       const bloc = b.from.location.split('node_modules')
-      /* istanbul ignore next - sort calling order is indeterminate */
+      /* c8 ignore start - sort calling order is indeterminate */
       if (aloc.length > bloc.length) {
         return 1
       }
+      /* c8 ignore stop */
       if (bloc.length > aloc.length) {
         return -1
       }
