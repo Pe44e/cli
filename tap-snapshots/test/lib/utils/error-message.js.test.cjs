@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/utils/error-message.js TAP 404 cleans sensitive info from package id > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > 404 > cleans sensitive info from package id > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -48,7 +48,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP 404 name with error > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > 404 > name with error > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -91,7 +91,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP 404 name with warning > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > 404 > name with warning > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -134,7 +134,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP 404 no package id > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > 404 > no package id > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -146,7 +146,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP 404 you should publish it > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > 404 > you should publish it > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -180,7 +180,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP args are cleaned > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > args are cleaned > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -214,7 +214,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP bad engine without config loaded > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > bad engine without config loaded > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -239,7 +239,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP bad platform array os/arch > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > bad platform > array os/arch > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -261,7 +261,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP bad platform omits keys with no required value > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > bad platform > omits keys with no required value > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -281,7 +281,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP bad platform string os/arch > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > bad platform > string os/arch > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -303,7 +303,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP default message > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > default message > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -315,7 +315,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP default message > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > default message > must match snapshot 2`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -327,7 +327,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP default message > must match snapshot 3`] = `
+exports[`test/lib/utils/error-message.js > TAP > default message > must match snapshot 3`] = `
 Object {
   "detail": Array [
     Array [
@@ -360,7 +360,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":false,"cachePath":false,"cacheDest":false} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":false,"cachePath":false,"cacheDest":false} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -389,11 +389,11 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":false,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":false,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
 Array []
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":false,"cachePath":false,"cacheDest":true} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":false,"cachePath":false,"cacheDest":true} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -422,11 +422,11 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":false,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":false,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
 Array []
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":false,"cachePath":true,"cacheDest":false} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":false,"cachePath":true,"cacheDest":false} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -455,11 +455,11 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":false,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":false,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
 Array []
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":false,"cachePath":true,"cacheDest":true} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":false,"cachePath":true,"cacheDest":true} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -488,11 +488,11 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":false,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":false,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
 Array []
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -521,7 +521,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
 Array [
   "title npm",
   "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
@@ -530,7 +530,7 @@ Array [
 ]
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -549,7 +549,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
 Array [
   "title npm",
   "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
@@ -559,7 +559,7 @@ Array [
 ]
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -578,7 +578,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
 Array [
   "title npm",
   "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
@@ -588,7 +588,7 @@ Array [
 ]
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -607,7 +607,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":false,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
 Array [
   "title npm",
   "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
@@ -617,7 +617,7 @@ Array [
 ]
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":false,"cachePath":false,"cacheDest":false} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":false,"cachePath":false,"cacheDest":false} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -647,11 +647,11 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":false,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":false,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
 Array []
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":false,"cachePath":false,"cacheDest":true} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":false,"cachePath":false,"cacheDest":true} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -681,11 +681,11 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":false,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":false,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
 Array []
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":false,"cachePath":true,"cacheDest":false} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":false,"cachePath":true,"cacheDest":false} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -715,11 +715,11 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":false,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":false,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
 Array []
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":false,"cachePath":true,"cacheDest":true} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":false,"cachePath":true,"cacheDest":true} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -749,11 +749,11 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":false,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":false,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
 Array []
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -783,7 +783,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
 Array [
   "title npm",
   "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
@@ -792,7 +792,7 @@ Array [
 ]
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -822,7 +822,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
 Array [
   "title npm",
   "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
@@ -831,7 +831,7 @@ Array [
 ]
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -861,7 +861,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
 Array [
   "title npm",
   "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
@@ -870,7 +870,7 @@ Array [
 ]
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -900,7 +900,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eacces/eperm {"windows":true,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
 Array [
   "title npm",
   "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
@@ -909,7 +909,7 @@ Array [
 ]
 `
 
-exports[`test/lib/utils/error-message.js TAP enoent without a file > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > enoent without a file > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -926,7 +926,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP enolock without a command > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > enolock without a command > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -947,7 +947,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eotp/e401 401, no auth headers > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eotp/e401 > 401, no auth headers > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -959,7 +959,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eotp/e401 401, no message > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eotp/e401 > 401, no message > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -973,7 +973,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eotp/e401 one-time pass challenge code > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eotp/e401 > one-time pass challenge code > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -994,7 +994,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eotp/e401 one-time pass challenge message > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eotp/e401 > one-time pass challenge message > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -1015,7 +1015,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eotp/e401 www-authenticate challenges Basic realm=by, charset="UTF-8", challenge="your friends" > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eotp/e401 > www-authenticate challenges > Basic realm=by, charset="UTF-8", challenge="your friends" > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -1042,7 +1042,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eotp/e401 www-authenticate challenges Bearer realm=do, charset="UTF-8", challenge="yourself" > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eotp/e401 > www-authenticate challenges > Bearer realm=do, charset="UTF-8", challenge="yourself" > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -1062,7 +1062,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eotp/e401 www-authenticate challenges PickACardAnyCard realm=friday, charset="UTF-8" > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eotp/e401 > www-authenticate challenges > PickACardAnyCard realm=friday, charset="UTF-8" > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -1074,7 +1074,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP eotp/e401 www-authenticate challenges WashYourHands, charset="UTF-8" > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > eotp/e401 > www-authenticate challenges > WashYourHands, charset="UTF-8" > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -1086,7 +1086,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP explain ERESOLVE errors > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > explain ERESOLVE errors > must match snapshot 1`] = `
 Object {
   "detail": Array [
     Array [
@@ -1113,7 +1113,63 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > json parse > json somewhere else > must match snapshot 1`] = `
+Object {
+  "detail": Array [
+    Array [
+      "JSON.parse",
+      String(
+        Failed to parse JSON data.
+        Note: package.json must be actual JSON, not just JavaScript.
+      ),
+    ],
+  ],
+  "summary": Array [
+    Array [
+      "JSON.parse",
+      "not json",
+    ],
+  ],
+}
+`
+
+exports[`test/lib/utils/error-message.js > TAP > json parse > just regular bad json in package.json > must match snapshot 1`] = `
+Object {
+  "detail": Array [
+    Array [
+      "JSON.parse",
+      String(
+        Failed to parse JSON data.
+        Note: package.json must be actual JSON, not just JavaScript.
+      ),
+    ],
+  ],
+  "summary": Array [
+    Array [
+      "JSON.parse",
+      "not json",
+    ],
+  ],
+}
+`
+
+exports[`test/lib/utils/error-message.js > TAP > json parse > merge conflict in package.json > must match snapshot 1`] = `
+Object {
+  "detail": Array [
+    Array [
+      "",
+      String(
+        Merge conflict detected in your package.json.
+        
+        Please resolve the package.json conflict and retry.
+      ),
+    ],
+  ],
+  "summary": Array [],
+}
+`
+
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -1125,7 +1181,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 10`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 10`] = `
 Object {
   "detail": Array [
     Array [
@@ -1148,7 +1204,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 11`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 11`] = `
 Object {
   "detail": Array [
     Array [
@@ -1171,7 +1227,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 12`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 12`] = `
 Object {
   "detail": Array [
     Array [
@@ -1194,7 +1250,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 13`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 13`] = `
 Object {
   "detail": Array [
     Array [
@@ -1219,7 +1275,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 14`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 14`] = `
 Object {
   "detail": Array [
     Array [
@@ -1239,7 +1295,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 15`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 15`] = `
 Object {
   "detail": Array [
     Array [
@@ -1259,7 +1315,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 16`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 16`] = `
 Object {
   "detail": Array [
     Array [
@@ -1280,7 +1336,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 17`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 17`] = `
 Object {
   "detail": Array [
     Array [
@@ -1300,7 +1356,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 18`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 18`] = `
 Object {
   "detail": Array [
     Array [
@@ -1320,7 +1376,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 19`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 19`] = `
 Object {
   "detail": Array [
     Array [
@@ -1340,7 +1396,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 2`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 2`] = `
 Object {
   "detail": Array [
     Array [
@@ -1361,7 +1417,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 20`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 20`] = `
 Object {
   "detail": Array [
     Array [
@@ -1381,7 +1437,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 21`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 21`] = `
 Object {
   "detail": Array [
     Array [
@@ -1401,7 +1457,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 22`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 22`] = `
 Object {
   "detail": Array [
     Array [
@@ -1422,7 +1478,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 23`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 23`] = `
 Object {
   "detail": Array [
     Array [
@@ -1445,7 +1501,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 3`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 3`] = `
 Object {
   "detail": Array [
     Array [
@@ -1471,7 +1527,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 4`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 4`] = `
 Object {
   "detail": Array [
     Array [
@@ -1492,7 +1548,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 5`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 5`] = `
 Object {
   "detail": Array [
     Array [
@@ -1521,7 +1577,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 6`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 6`] = `
 Object {
   "detail": Array [
     Array [
@@ -1545,7 +1601,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 7`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 7`] = `
 Object {
   "detail": Array [
     Array [
@@ -1570,7 +1626,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 8`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 8`] = `
 Object {
   "detail": Array [
     Array [
@@ -1587,7 +1643,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP just simple messages > must match snapshot 9`] = `
+exports[`test/lib/utils/error-message.js > TAP > just simple messages > must match snapshot 9`] = `
 Object {
   "detail": Array [
     Array [
@@ -1610,7 +1666,7 @@ Object {
 }
 `
 
-exports[`test/lib/utils/error-message.js TAP replace message/stack sensistive info > must match snapshot 1`] = `
+exports[`test/lib/utils/error-message.js > TAP > replace message/stack sensistive info > must match snapshot 1`] = `
 Object {
   "detail": Array [],
   "summary": Array [
@@ -1619,61 +1675,5 @@ Object {
       "Error at registry: https://user:***@registry.npmjs.org/",
     ],
   ],
-}
-`
-
-exports[`v TAP json parse json somewhere else > must match snapshot 1`] = `
-Object {
-  "detail": Array [
-    Array [
-      "JSON.parse",
-      String(
-        Failed to parse JSON data.
-        Note: package.json must be actual JSON, not just JavaScript.
-      ),
-    ],
-  ],
-  "summary": Array [
-    Array [
-      "JSON.parse",
-      "not json",
-    ],
-  ],
-}
-`
-
-exports[`v TAP json parse just regular bad json in package.json > must match snapshot 1`] = `
-Object {
-  "detail": Array [
-    Array [
-      "JSON.parse",
-      String(
-        Failed to parse JSON data.
-        Note: package.json must be actual JSON, not just JavaScript.
-      ),
-    ],
-  ],
-  "summary": Array [
-    Array [
-      "JSON.parse",
-      "not json",
-    ],
-  ],
-}
-`
-
-exports[`v TAP json parse merge conflict in package.json > must match snapshot 1`] = `
-Object {
-  "detail": Array [
-    Array [
-      "",
-      String(
-        Merge conflict detected in your package.json.
-        
-        Please resolve the package.json conflict and retry.
-      ),
-    ],
-  ],
-  "summary": Array [],
 }
 `

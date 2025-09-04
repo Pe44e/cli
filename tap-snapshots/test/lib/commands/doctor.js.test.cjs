@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/doctor.js TAP all clear > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > all clear > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -29,7 +29,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP all clear > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > all clear > output 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -62,7 +62,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP all clear in color > everything is ok in color 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > all clear in color > everything is ok in color 1`] = `
 Connecting to the registry
 [32mOk[39m
 Checking npm version
@@ -95,7 +95,7 @@ Verifying cache contents (this may take awhile)
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP all clear in color > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > all clear in color > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -119,7 +119,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP bad proxy > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > bad proxy > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -145,7 +145,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP bad proxy > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > bad proxy > output 1`] = `
 Connecting to the registry
 Not ok
 Invalid protocol \`ssh:\` connecting to proxy \`npmjs.org\`
@@ -179,7 +179,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP cacache badContent > corrupted cache content 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > cacache badContent > corrupted cache content 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -212,7 +212,7 @@ Ok
 verified 2 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP cacache badContent > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > cacache badContent > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -239,7 +239,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP cacache missingContent > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > cacache missingContent > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -266,7 +266,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP cacache missingContent > missing content 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > cacache missingContent > missing content 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -299,7 +299,7 @@ Ok
 verified 2 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP cacache reclaimedCount > content garbage collected 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > cacache reclaimedCount > content garbage collected 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -332,7 +332,7 @@ Ok
 verified 2 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP cacache reclaimedCount > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > cacache reclaimedCount > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -359,7 +359,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks cache > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > cache > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -378,7 +378,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks cache > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > cache > output 1`] = `
 Checking permissions on cached files (this may take awhile)
 Ok
 Verifying cache contents (this may take awhile)
@@ -386,7 +386,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks git > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > git > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -396,11 +396,11 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks git > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > git > output 1`] = `
 
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks invalid environment > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > invalid environment > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -414,7 +414,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks invalid environment > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > invalid environment > output 1`] = `
 Checking for git executable in PATH
 Ok
 /path/to/git
@@ -423,7 +423,7 @@ Not ok
 Error: Add {CWD}/global/bin to your $PATH
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks permissions - not windows > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > permissions - not windows > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -433,7 +433,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks permissions - not windows > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > permissions - not windows > output 1`] = `
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -446,7 +446,7 @@ Checking permissions on global bin folder
 Ok
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks permissions - windows > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > permissions - windows > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -456,11 +456,11 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks permissions - windows > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > permissions - windows > output 1`] = `
 
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks ping > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > ping > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -471,12 +471,12 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks ping > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > ping > output 1`] = `
 Connecting to the registry
 Ok
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks registry > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > registry > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -487,7 +487,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks registry > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > registry > output 1`] = `
 Connecting to the registry
 Ok
 Checking configured npm registry
@@ -495,7 +495,7 @@ Ok
 using default registry (https://registry.npmjs.org/)
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks versions > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > versions > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -507,7 +507,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP discrete checks versions > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > discrete checks > versions > output 1`] = `
 Checking npm version
 Ok
 current: v1.0.0, latest: v1.0.0
@@ -516,7 +516,7 @@ Ok
 current: v1.0.0, recommended: v1.0.0
 `
 
-exports[`test/lib/commands/doctor.js TAP error reading directory > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > error reading directory > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -548,7 +548,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP error reading directory > readdir error 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > error reading directory > readdir error 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -586,7 +586,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP incorrect owner > incorrect owner 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > incorrect owner > incorrect owner 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -620,7 +620,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP incorrect owner > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > incorrect owner > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -648,7 +648,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP incorrect permissions > incorrect owner 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > incorrect permissions > incorrect owner 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -686,7 +686,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP incorrect permissions > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > incorrect permissions > logs 1`] = `
 Object {
   "error": Array [
     "doctor checkFilesPermission Missing permissions on {CWD}/cache (expect: readable)",
@@ -717,7 +717,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP missing git > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > missing git > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -747,7 +747,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP missing git > missing git 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > missing git > missing git 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -780,7 +780,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP missing global directories > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > missing global directories > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -809,7 +809,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP missing global directories > missing global directories 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > missing global directories > missing global directories 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -844,7 +844,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP missing local node_modules > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > missing local node_modules > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -868,7 +868,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP missing local node_modules > missing local node_modules 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > missing local node_modules > missing local node_modules 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -901,7 +901,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP node out of date - current > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > node out of date - current > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -927,7 +927,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP node out of date - current > node is out of date 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > node out of date - current > node is out of date 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -960,7 +960,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP node out of date - lts > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > node out of date - lts > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -986,7 +986,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP node out of date - lts > node is out of date 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > node out of date - lts > node is out of date 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -1019,7 +1019,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP non-default registry > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > non-default registry > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -1045,7 +1045,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP non-default registry > non default registry 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > non-default registry > non default registry 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -1078,7 +1078,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP npm out of date > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > npm out of date > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -1104,7 +1104,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP npm out of date > npm is out of date 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > npm out of date > npm is out of date 1`] = `
 Connecting to the registry
 Ok
 Checking npm version
@@ -1137,7 +1137,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP ping 404 > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > ping 404 > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -1163,7 +1163,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP ping 404 > ping 404 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > ping 404 > ping 404 1`] = `
 Connecting to the registry
 Not ok
 404 404 Not Found - GET https://registry.npmjs.org/-/ping
@@ -1197,7 +1197,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP ping 404 in color > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > ping 404 in color > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -1223,7 +1223,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP ping 404 in color > ping 404 in color 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > ping 404 in color > ping 404 in color 1`] = `
 Connecting to the registry
 [31mNot ok[39m
 [36m404 404 Not Found - GET https://registry.npmjs.org/-/ping[39m
@@ -1257,7 +1257,7 @@ Verifying cache contents (this may take awhile)
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP ping exception with code > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > ping exception with code > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -1283,7 +1283,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP ping exception with code > ping failure 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > ping exception with code > ping failure 1`] = `
 Connecting to the registry
 Not ok
 request to https://registry.npmjs.org/-/ping failed, reason: Test Error
@@ -1317,7 +1317,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP ping exception without code > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > ping exception without code > logs 1`] = `
 Object {
   "error": Array [
     "Some problems found. See above for recommendations.",
@@ -1343,7 +1343,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP ping exception without code > ping failure 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > ping exception without code > ping failure 1`] = `
 Connecting to the registry
 Not ok
 request to https://registry.npmjs.org/-/ping failed, reason: Test Error
@@ -1377,7 +1377,7 @@ Ok
 verified 0 tarballs
 `
 
-exports[`test/lib/commands/doctor.js TAP silent errors > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > silent errors > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [],
@@ -1385,11 +1385,11 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP silent errors > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > silent errors > output 1`] = `
 
 `
 
-exports[`test/lib/commands/doctor.js TAP silent success > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > silent success > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [],
@@ -1397,11 +1397,11 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP silent success > output 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > silent success > output 1`] = `
 
 `
 
-exports[`test/lib/commands/doctor.js TAP windows skips permissions checks > logs 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > windows skips permissions checks > logs 1`] = `
 Object {
   "error": Array [],
   "info": Array [
@@ -1416,7 +1416,7 @@ Object {
 }
 `
 
-exports[`test/lib/commands/doctor.js TAP windows skips permissions checks > no permissions checks 1`] = `
+exports[`test/lib/commands/doctor.js > TAP > windows skips permissions checks > no permissions checks 1`] = `
 Connecting to the registry
 Ok
 Checking npm version

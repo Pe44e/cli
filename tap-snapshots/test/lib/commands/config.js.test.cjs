@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/config.js TAP config list --json > output matches snapshot 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list --json > output matches snapshot 1`] = `
 {
   "cache": "{CACHE}",
   "color": {COLOR},
@@ -173,7 +173,7 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
 }
 `
 
-exports[`test/lib/commands/config.js TAP config list --long > output matches snapshot 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list --long > output matches snapshot 1`] = `
 ; "default" config from default values
 
 _auth = (protected)
@@ -355,7 +355,7 @@ color = {COLOR}
 long = true
 `
 
-exports[`test/lib/commands/config.js TAP config list > output matches snapshot 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list > output matches snapshot 1`] = `
 ; "global" config from {CWD}/global/etc/npmrc
 
 globalloaded = "yes"
@@ -386,7 +386,7 @@ color = {COLOR}
 ; Run \`npm config ls -l\` to show all defaults.
 `
 
-exports[`test/lib/commands/config.js TAP config list with publishConfig global > output matches snapshot 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list with publishConfig > global > output matches snapshot 1`] = `
 ; "cli" config from command line options
 
 cache = "{CACHE}"
@@ -402,7 +402,7 @@ global = true
 ; Run \`npm config ls -l\` to show all defaults.
 `
 
-exports[`test/lib/commands/config.js TAP config list with publishConfig local > output matches snapshot 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list with publishConfig > local > output matches snapshot 1`] = `
 ; "cli" config from command line options
 
 cache = "{CACHE}"
@@ -424,7 +424,7 @@ other = "not defined"
 registry = "https://some.registry"
 `
 
-exports[`test/lib/commands/config.js TAP config list with publishConfig local > warns about unknown config 1`] = `
+exports[`test/lib/commands/config.js > TAP > config list with publishConfig > local > warns about unknown config 1`] = `
 Array [
   "Unknown publishConfig config /"other/". This will stop working in the next major version of npm.",
 ]

@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/pack.js TAP dry run > logs pack contents 1`] = `
+exports[`test/lib/commands/pack.js > TAP > dry run > logs pack contents 1`] = `
 Array [
   "package: test-package@1.0.0",
   "Tarball Contents",
@@ -22,7 +22,7 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/pack.js TAP foreground-scripts can still be set to false > logs pack contents 1`] = `
+exports[`test/lib/commands/pack.js > TAP > foreground-scripts can still be set to false > logs pack contents 1`] = `
 Array [
   "package: test-fg-scripts@0.0.0",
   "Tarball Contents",
@@ -39,7 +39,7 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/pack.js TAP foreground-scripts defaults to true > logs pack contents 1`] = `
+exports[`test/lib/commands/pack.js > TAP > foreground-scripts defaults to true > logs pack contents 1`] = `
 Array [
   "package: test-fg-scripts@0.0.0",
   "Tarball Contents",
@@ -56,11 +56,11 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/pack.js TAP should log output as valid json > logs pack contents 1`] = `
+exports[`test/lib/commands/pack.js > TAP > should log output as valid json > logs pack contents 1`] = `
 Array []
 `
 
-exports[`test/lib/commands/pack.js TAP should log output as valid json > outputs as json 1`] = `
+exports[`test/lib/commands/pack.js > TAP > should log output as valid json > outputs as json 1`] = `
 Array [
   Array [
     Object {
@@ -86,11 +86,11 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/pack.js TAP should log scoped package output as valid json > logs pack contents 1`] = `
+exports[`test/lib/commands/pack.js > TAP > should log scoped package output as valid json > logs pack contents 1`] = `
 Array []
 `
 
-exports[`test/lib/commands/pack.js TAP should log scoped package output as valid json > outputs as json 1`] = `
+exports[`test/lib/commands/pack.js > TAP > should log scoped package output as valid json > outputs as json 1`] = `
 Array [
   Array [
     Object {
@@ -116,7 +116,7 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/pack.js TAP should log scoped package output as valid json > stderr has banners 1`] = `
+exports[`test/lib/commands/pack.js > TAP > should log scoped package output as valid json > stderr has banners 1`] = `
 Array [
   String(
     
@@ -127,7 +127,7 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/pack.js TAP should pack current directory with no arguments > logs pack contents 1`] = `
+exports[`test/lib/commands/pack.js > TAP > should pack current directory with no arguments > logs pack contents 1`] = `
 Array [
   "package: test-package@1.0.0",
   "Tarball Contents",

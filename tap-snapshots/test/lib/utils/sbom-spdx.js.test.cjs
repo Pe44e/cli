@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/utils/sbom-spdx.js TAP node - with deps > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > node - with deps > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -182,7 +182,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP node - with deps > must match snapshot 
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP node - with duplicate deps > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > node - with duplicate deps > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -271,7 +271,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP node - with duplicate deps > must match
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - application package type > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - application package type > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -317,7 +317,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP single node - application package type 
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - from git url > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - from git url > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -362,7 +362,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP single node - from git url > must match
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - linked > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - linked > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -407,7 +407,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP single node - linked > must match snaps
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - with description > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - with description > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -453,7 +453,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP single node - with description > must m
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - with distribution url > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - with distribution url > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -498,7 +498,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP single node - with distribution url > m
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - with homepage > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - with homepage > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -543,7 +543,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP single node - with homepage > must matc
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - with integrity > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - with integrity > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -594,7 +594,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP single node - with integrity > must mat
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - with license expression > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - with license expression > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -639,7 +639,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP single node - with license expression >
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - with license object > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - with license object > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
@@ -684,7 +684,7 @@ exports[`test/lib/utils/sbom-spdx.js TAP single node - with license object > mus
 }
 `
 
-exports[`test/lib/utils/sbom-spdx.js TAP single node - with single license > must match snapshot 1`] = `
+exports[`test/lib/utils/sbom-spdx.js > TAP > single node - with single license > must match snapshot 1`] = `
 {
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",

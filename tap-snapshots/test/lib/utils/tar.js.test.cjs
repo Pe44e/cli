@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/utils/tar.js TAP should log tarball contents > must match snapshot 1`] = `
+exports[`test/lib/utils/tar.js > TAP > should log tarball contents > must match snapshot 1`] = `
 
 
 package: my-cool-pkg@1.0.0
@@ -45,7 +45,7 @@ total files: 5
 
 `
 
-exports[`test/lib/utils/tar.js TAP should log tarball contents of a scoped package > must match snapshot 1`] = `
+exports[`test/lib/utils/tar.js > TAP > should log tarball contents of a scoped package > must match snapshot 1`] = `
 
 
 package: @myscope/my-cool-pkg@1.0.0

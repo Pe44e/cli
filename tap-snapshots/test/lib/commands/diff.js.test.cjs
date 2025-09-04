@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/diff.js TAP no args in a project dir > must match snapshot 1`] = `
+exports[`test/lib/commands/diff.js > TAP > no args > in a project dir > must match snapshot 1`] = `
 diff --git a/a.js b/a.js
 index v0.1.0..v1.0.0 100644
 --- a/a.js
@@ -39,7 +39,7 @@ index v0.1.0..v1.0.0 100644
  }
 `
 
-exports[`test/lib/commands/diff.js TAP single arg version, filtering by files > must match snapshot 1`] = `
+exports[`test/lib/commands/diff.js > TAP > single arg > version, filtering by files > must match snapshot 1`] = `
 diff --git a/a.js b/a.js
 index v0.1.0..v1.0.0 100644
 --- a/a.js
@@ -56,12 +56,12 @@ index v0.1.0..v1.0.0 100644
 +const b = "b@1.0.0"
 `
 
-exports[`test/lib/commands/diff.js TAP various options using --name-only option > must match snapshot 1`] = `
+exports[`test/lib/commands/diff.js > TAP > various options > using --name-only option > must match snapshot 1`] = `
 index.js
 package.json
 `
 
-exports[`test/lib/commands/diff.js TAP various options using diff option > must match snapshot 1`] = `
+exports[`test/lib/commands/diff.js > TAP > various options > using diff option > must match snapshot 1`] = `
 diff --git a/index.js b/index.js
 index v2.0.0..v3.0.0 100644
 --- a/index.js

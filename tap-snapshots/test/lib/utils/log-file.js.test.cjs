@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/utils/log-file.js TAP snapshot > must match snapshot 1`] = `
+exports[`test/lib/utils/log-file.js > TAP > snapshot > must match snapshot 1`] = `
 0 verbose logfile logs-max:10 dir:{CWD}/{DATE}-
 1 verbose logfile {CWD}/{DATE}-debug-0.log
 2 silly logfile done cleaning log files

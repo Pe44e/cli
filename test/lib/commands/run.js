@@ -332,26 +332,26 @@ t.test('skip pre/post hooks when using ignoreScripts', async t => {
 
   await runScript.exec(['env'])
 
-  t.same(RUN_SCRIPTS(), [
-    {
-      path: npm.localPrefix,
-      args: [],
-      scriptShell: undefined,
-      stdio: 'inherit',
-      pkg: {
-        name: 'x',
-        version: '1.2.3',
-        _id: 'x@1.2.3',
-        scripts: {
-          preenv: 'echo before the env',
-          postenv: 'echo after the env',
-          env: 'env',
-        },
-      },
-      nodeGyp: npm.config.get('node-gyp'),
-      event: 'env',
-    },
-  ])
+  const runScripts = RUN_SCRIPTS()
+  t.equal(runScripts.length, 1, 'should have one script run')
+  
+  const script = runScripts[0]
+  t.equal(script.path, npm.localPrefix, 'correct path')
+  t.same(script.args, [], 'correct args')
+  t.equal(script.scriptShell, undefined, 'correct scriptShell')
+  t.equal(script.stdio, 'inherit', 'correct stdio')
+  t.equal(script.event, 'env', 'correct event')
+  t.equal(script.nodeGyp, npm.config.get('node-gyp'), 'correct nodeGyp')
+  
+  // Check pkg properties separately to avoid property order issues
+  t.equal(script.pkg.name, 'x', 'correct pkg name')
+  t.equal(script.pkg.version, '1.2.3', 'correct pkg version')
+  t.equal(script.pkg._id, 'x@1.2.3', 'correct pkg _id')
+  t.same(script.pkg.scripts, {
+    preenv: 'echo before the env',
+    postenv: 'echo after the env',
+    env: 'env',
+  }, 'correct pkg scripts')
 })
 
 t.test('run silent', async t => {

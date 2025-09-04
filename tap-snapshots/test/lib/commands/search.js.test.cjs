@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/search.js TAP search /<name>/--color > should have expected search results with color 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > /<name>/--color > should have expected search results with color 1`] = `
 [34mlibnpm[39m
 Collection of programmatic APIs for the npm CLI
 Version [34m3.0.1[39m published [34m2019-07-16[39m by [34misaacs[39m
@@ -78,7 +78,7 @@ Maintainers: lukekarrys
 [34mhttps://npm.im/pkg-no-desc[39m
 `
 
-exports[`test/lib/commands/search.js TAP search <name> --color > should have expected search results with color 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > <name> --color > should have expected search results with color 1`] = `
 [36mlibnpm[39m
 Collection of programmatic APIs for the npm CLI
 Version [34m3.0.1[39m published [34m2019-07-16[39m by [34misaacs[39m
@@ -151,7 +151,7 @@ Maintainers: lukekarrys
 [34mhttps://npm.im/pkg-no-desc[39m
 `
 
-exports[`test/lib/commands/search.js TAP search <name> --parseable > should have expected search results as parseable 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > <name> --parseable > should have expected search results as parseable 1`] = `
 libnpm	Collection of programmatic APIs for the npm CLI	2019-07-16	3.0.1	npm,api,package manager,lib
 libnpmaccess	programmatic library for \`npm access\` commands	2020-11-03	4.0.1	libnpmaccess
 @evocateur/libnpmaccess	programmatic library for \`npm access\` commands	2019-07-16	3.1.2	
@@ -167,7 +167,7 @@ libnpmversion	library to do the things that 'npm version' does	2020-11-04	1.0.7
 pkg-no-desc	2019-09-26	1.0.0	
 `
 
-exports[`test/lib/commands/search.js TAP search <name> > should have filtered expected search results 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > <name> > should have filtered expected search results 1`] = `
 foo
 Version 1.0.0 published prehistoric by foo
 Maintainers: foo
@@ -182,7 +182,7 @@ Maintainers: foo
 https://npm.im/libnpmversion
 `
 
-exports[`test/lib/commands/search.js TAP search <name> text > should have expected search results 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > <name> text > should have expected search results 1`] = `
 libnpm
 Collection of programmatic APIs for the npm CLI
 Version 3.0.1 published 2019-07-16 by isaacs
@@ -255,11 +255,11 @@ Maintainers: lukekarrys
 https://npm.im/pkg-no-desc
 `
 
-exports[`test/lib/commands/search.js TAP search empty search results > should have expected search results 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > empty search results > should have expected search results 1`] = `
 No matches found for "foo"
 `
 
-exports[`test/lib/commands/search.js TAP search exclude forward slash > results should not have libnpmversion 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > exclude forward slash > results should not have libnpmversion 1`] = `
 libnpm
 Collection of programmatic APIs for the npm CLI
 Version 3.0.1 published 2019-07-16 by isaacs
@@ -327,7 +327,7 @@ Maintainers: lukekarrys
 https://npm.im/pkg-no-desc
 `
 
-exports[`test/lib/commands/search.js TAP search exclude regex > results should not have libnpmversion 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > exclude regex > results should not have libnpmversion 1`] = `
 libnpm
 Collection of programmatic APIs for the npm CLI
 Version 3.0.1 published 2019-07-16 by isaacs
@@ -395,7 +395,7 @@ Maintainers: lukekarrys
 https://npm.im/pkg-no-desc
 `
 
-exports[`test/lib/commands/search.js TAP search exclude string > results should not have libnpmversion 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > exclude string > results should not have libnpmversion 1`] = `
 libnpm
 Collection of programmatic APIs for the npm CLI
 Version 3.0.1 published 2019-07-16 by isaacs
@@ -463,7 +463,7 @@ Maintainers: lukekarrys
 https://npm.im/pkg-no-desc
 `
 
-exports[`test/lib/commands/search.js TAP search exclude string json > results should not have libnpmversion 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > exclude string json > results should not have libnpmversion 1`] = `
 Array [
   Object {
     "author": Object {
@@ -910,7 +910,7 @@ Array [
 ]
 `
 
-exports[`test/lib/commands/search.js TAP search exclude username with upper case letters > results should not have nlf 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > exclude username with upper case letters > results should not have nlf 1`] = `
 @evocateur/libnpmaccess
 programmatic library for \`npm access\` commands
 Version 3.1.2 published 2019-07-16 by evocateur
@@ -932,7 +932,7 @@ Maintainers: lukekarrys
 https://npm.im/pkg-no-desc
 `
 
-exports[`test/lib/commands/search.js TAP search multiple terms --color > should have expected search results with color 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > multiple terms --color > should have expected search results with color 1`] = `
 [36mlibnpm[39m
 Collection of programmatic APIs for the npm CLI
 Version [34m3.0.1[39m published [34m2019-07-16[39m by [34misaacs[39m
@@ -1005,7 +1005,7 @@ Maintainers: lukekarrys
 [34mhttps://npm.im/pkg-no-desc[39m
 `
 
-exports[`test/lib/commands/search.js TAP search multiple terms text > should have expected search results 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > multiple terms text > should have expected search results 1`] = `
 libnpm
 Collection of programmatic APIs for the npm CLI
 Version 3.0.1 published 2019-07-16 by isaacs
@@ -1078,7 +1078,7 @@ Maintainers: lukekarrys
 https://npm.im/pkg-no-desc
 `
 
-exports[`test/lib/commands/search.js TAP search no publisher > should have filtered expected search results 1`] = `
+exports[`test/lib/commands/search.js > TAP > search > no publisher > should have filtered expected search results 1`] = `
 custom-registry
 Version 1.0.0 published prehistoric by ???
 Maintainers: foo

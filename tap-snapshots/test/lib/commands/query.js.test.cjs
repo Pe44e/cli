@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/commands/query.js TAP global > should return global package 1`] = `
+exports[`test/lib/commands/query.js > TAP > global > should return global package 1`] = `
 [
   {
     "name": "lorem",
@@ -29,7 +29,7 @@ exports[`test/lib/commands/query.js TAP global > should return global package 1`
 ]
 `
 
-exports[`test/lib/commands/query.js TAP include-workspace-root > should return workspace object and root object 1`] = `
+exports[`test/lib/commands/query.js > TAP > include-workspace-root > should return workspace object and root object 1`] = `
 [
   {
     "name": "project",
@@ -77,7 +77,7 @@ exports[`test/lib/commands/query.js TAP include-workspace-root > should return w
 ]
 `
 
-exports[`test/lib/commands/query.js TAP linked node > should return linked node res 1`] = `
+exports[`test/lib/commands/query.js > TAP > linked node > should return linked node res 1`] = `
 [
   {
     "name": "a",
@@ -99,7 +99,7 @@ exports[`test/lib/commands/query.js TAP linked node > should return linked node 
 ]
 `
 
-exports[`test/lib/commands/query.js TAP missing > should return missing node 1`] = `
+exports[`test/lib/commands/query.js > TAP > missing > should return missing node 1`] = `
 [
   {
     "name": "b",
@@ -124,7 +124,7 @@ exports[`test/lib/commands/query.js TAP missing > should return missing node 1`]
 ]
 `
 
-exports[`test/lib/commands/query.js TAP package-lock-only with package lock > should return valid response with only lock info 1`] = `
+exports[`test/lib/commands/query.js > TAP > package-lock-only > with package lock > should return valid response with only lock info 1`] = `
 [
   {
     "name": "project",
@@ -172,7 +172,7 @@ exports[`test/lib/commands/query.js TAP package-lock-only with package lock > sh
 ]
 `
 
-exports[`test/lib/commands/query.js TAP recursive tree > should return everything in the tree, accounting for recursion 1`] = `
+exports[`test/lib/commands/query.js > TAP > recursive tree > should return everything in the tree, accounting for recursion 1`] = `
 [
   {
     "name": "project",
@@ -231,7 +231,7 @@ exports[`test/lib/commands/query.js TAP recursive tree > should return everythin
 ]
 `
 
-exports[`test/lib/commands/query.js TAP simple query > should return root object and direct children 1`] = `
+exports[`test/lib/commands/query.js > TAP > simple query > should return root object and direct children 1`] = `
 [
   {
     "name": "project",
@@ -293,7 +293,7 @@ exports[`test/lib/commands/query.js TAP simple query > should return root object
 ]
 `
 
-exports[`test/lib/commands/query.js TAP workspace query > should return workspace object 1`] = `
+exports[`test/lib/commands/query.js > TAP > workspace query > should return workspace object 1`] = `
 [
   {
     "name": "c",

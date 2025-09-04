@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/cli/exit-handler.js TAP handles unknown error with logs and debug file > debug file contents 1`] = `
+exports[`test/lib/cli/exit-handler.js > TAP > handles unknown error with logs and debug file > debug file contents 1`] = `
 XX timing npm:load:whichnode Completed in {TIME}ms
 XX silly config load:file:{CWD}/npmrc
 XX silly config load:file:{CWD}/prefix/.npmrc
@@ -35,7 +35,7 @@ XX verbose code 1
 XX error A complete log of this run can be found in: {CWD}/cache/_logs/{DATE}-debug-0.log
 `
 
-exports[`test/lib/cli/exit-handler.js TAP handles unknown error with logs and debug file > logs 1`] = `
+exports[`test/lib/cli/exit-handler.js > TAP > handles unknown error with logs and debug file > logs 1`] = `
 timing npm:load:whichnode Completed in {TIME}ms
 silly config load:file:{CWD}/npmrc
 silly config load:file:{CWD}/prefix/.npmrc

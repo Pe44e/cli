@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test/lib/utils/explain-eresolve.js TAP basic chain-conflict > explain with color, depth of 2 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > chain-conflict > explain with color, depth of 2 1`] = `
 While resolving: project@1.2.3
 Found: @isaacs/testing-peer-dep-conflict-chain-d@2.0.0[2m[22m
 [2mnode_modules/@isaacs/testing-peer-dep-conflict-chain-d[22m
@@ -17,7 +17,7 @@ Could not resolve dependency:
   @isaacs/testing-peer-dep-conflict-chain-c@"1" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic chain-conflict > explain with no color, depth of 6 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > chain-conflict > explain with no color, depth of 6 1`] = `
 While resolving: project@1.2.3
 Found: @isaacs/testing-peer-dep-conflict-chain-d@2.0.0
 node_modules/@isaacs/testing-peer-dep-conflict-chain-d
@@ -29,7 +29,7 @@ node_modules/@isaacs/testing-peer-dep-conflict-chain-c
   @isaacs/testing-peer-dep-conflict-chain-c@"1" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic chain-conflict > report from color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > chain-conflict > report from color 1`] = `
 # npm resolution error report
 
 While resolving: project@1.2.3
@@ -47,7 +47,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic chain-conflict > report with color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > chain-conflict > report with color 1`] = `
 While resolving: project@1.2.3
 Found: @isaacs/testing-peer-dep-conflict-chain-d@2.0.0[2m[22m
 [2mnode_modules/@isaacs/testing-peer-dep-conflict-chain-d[22m
@@ -63,7 +63,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic chain-conflict > report with no color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > chain-conflict > report with no color 1`] = `
 While resolving: project@1.2.3
 Found: @isaacs/testing-peer-dep-conflict-chain-d@2.0.0
 node_modules/@isaacs/testing-peer-dep-conflict-chain-d
@@ -79,7 +79,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic cycleNested > explain with color, depth of 2 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > cycleNested > explain with color, depth of 2 1`] = `
 Found: @isaacs/peer-dep-cycle-c@2.0.0[2m[22m
 [2mnode_modules/@isaacs/peer-dep-cycle-c[22m
   @isaacs/peer-dep-cycle-c@"2.x" from the root project
@@ -97,7 +97,7 @@ Conflicting peer dependency: @isaacs/peer-dep-cycle-c@1.0.0[2m[22m
     [2mnode_modules/@isaacs/peer-dep-cycle-a[22m
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic cycleNested > explain with no color, depth of 6 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > cycleNested > explain with no color, depth of 6 1`] = `
 Found: @isaacs/peer-dep-cycle-c@2.0.0
 node_modules/@isaacs/peer-dep-cycle-c
   @isaacs/peer-dep-cycle-c@"2.x" from the root project
@@ -116,7 +116,7 @@ node_modules/@isaacs/peer-dep-cycle-c
       @isaacs/peer-dep-cycle-a@"1.x" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic cycleNested > report from color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > cycleNested > report from color 1`] = `
 # npm resolution error report
 
 Found: @isaacs/peer-dep-cycle-c@2.0.0
@@ -141,7 +141,7 @@ this command with --no-strict-peer-deps, --force, or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic cycleNested > report with color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > cycleNested > report with color 1`] = `
 Found: @isaacs/peer-dep-cycle-c@2.0.0[2m[22m
 [2mnode_modules/@isaacs/peer-dep-cycle-c[22m
   @isaacs/peer-dep-cycle-c@"2.x" from the root project
@@ -164,7 +164,7 @@ this command with --no-strict-peer-deps, --force, or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic cycleNested > report with no color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > cycleNested > report with no color 1`] = `
 Found: @isaacs/peer-dep-cycle-c@2.0.0
 node_modules/@isaacs/peer-dep-cycle-c
   @isaacs/peer-dep-cycle-c@"2.x" from the root project
@@ -187,7 +187,7 @@ this command with --no-strict-peer-deps, --force, or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic eslint-plugin case > explain with color, depth of 2 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > eslint-plugin case > explain with color, depth of 2 1`] = `
 While resolving: eslint-plugin-react@7.24.0
 Found: eslint@6.8.0[2m[22m
 [2mnode_modules/eslint[22m
@@ -204,7 +204,7 @@ Conflicting peer dependency: eslint@7.31.0[2m[22m
     [34mdev[39m eslint-plugin-eslint-plugin@"^3.1.0" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic eslint-plugin case > explain with no color, depth of 6 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > eslint-plugin case > explain with no color, depth of 6 1`] = `
 While resolving: eslint-plugin-react@7.24.0
 Found: eslint@6.8.0
 node_modules/eslint
@@ -227,7 +227,7 @@ node_modules/eslint
     dev eslint-plugin-eslint-plugin@"^3.1.0" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic eslint-plugin case > report from color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > eslint-plugin case > report from color 1`] = `
 # npm resolution error report
 
 While resolving: eslint-plugin-react@7.24.0
@@ -261,7 +261,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic eslint-plugin case > report with color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > eslint-plugin case > report with color 1`] = `
 While resolving: eslint-plugin-react@7.24.0
 Found: eslint@6.8.0[2m[22m
 [2mnode_modules/eslint[22m
@@ -285,7 +285,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic eslint-plugin case > report with no color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > eslint-plugin case > report with no color 1`] = `
 While resolving: eslint-plugin-react@7.24.0
 Found: eslint@6.8.0
 node_modules/eslint
@@ -309,7 +309,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic gatsby > explain with color, depth of 2 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > gatsby > explain with color, depth of 2 1`] = `
 While resolving: gatsby-recipes@0.2.31
 Found: ink@3.0.0-7[2m[22m
 [2mnode_modules/ink[22m
@@ -325,7 +325,7 @@ Could not resolve dependency:
   [2mnode_modules/gatsby-recipes[22m
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic gatsby > explain with no color, depth of 6 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > gatsby > explain with no color, depth of 6 1`] = `
 While resolving: gatsby-recipes@0.2.31
 Found: ink@3.0.0-7
 node_modules/ink
@@ -349,7 +349,7 @@ node_modules/ink-box
         gatsby@"" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic gatsby > report from color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > gatsby > report from color 1`] = `
 # npm resolution error report
 
 While resolving: gatsby-recipes@0.2.31
@@ -379,7 +379,7 @@ this command with --no-strict-peer-deps, --force, or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic gatsby > report with color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > gatsby > report with color 1`] = `
 While resolving: gatsby-recipes@0.2.31
 Found: ink@3.0.0-7[2m[22m
 [2mnode_modules/ink[22m
@@ -406,7 +406,7 @@ this command with --no-strict-peer-deps, --force, or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic gatsby > report with no color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > gatsby > report with no color 1`] = `
 While resolving: gatsby-recipes@0.2.31
 Found: ink@3.0.0-7
 node_modules/ink
@@ -433,7 +433,7 @@ this command with --no-strict-peer-deps, --force, or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, but has current edge > explain with color, depth of 2 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, but has current edge > explain with color, depth of 2 1`] = `
 While resolving: eslint@7.22.0
 Found: [34mdev[39m eslint@"file:." from the root project
 
@@ -443,7 +443,7 @@ Could not resolve dependency:
   [34mdev[39m eslint-plugin-jsdoc@"^22.1.0" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, but has current edge > explain with no color, depth of 6 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, but has current edge > explain with no color, depth of 6 1`] = `
 While resolving: eslint@7.22.0
 Found: dev eslint@"file:." from the root project
 
@@ -453,7 +453,7 @@ node_modules/eslint-plugin-jsdoc
   dev eslint-plugin-jsdoc@"^22.1.0" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, but has current edge > report from color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, but has current edge > report from color 1`] = `
 # npm resolution error report
 
 While resolving: eslint@7.22.0
@@ -469,7 +469,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, but has current edge > report with color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, but has current edge > report with color 1`] = `
 While resolving: eslint@7.22.0
 Found: [34mdev[39m eslint@"file:." from the root project
 
@@ -483,7 +483,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, but has current edge > report with no color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, but has current edge > report with no color 1`] = `
 While resolving: eslint@7.22.0
 Found: dev eslint@"file:." from the root project
 
@@ -497,7 +497,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, no current edge, idk > explain with color, depth of 2 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, no current edge, idk > explain with color, depth of 2 1`] = `
 While resolving: eslint@7.22.0
 Found: [95mpeer[39m eslint@"^6.0.0" from eslint-plugin-jsdoc@22.2.0[2m[22m
 [2mnode_modules/eslint-plugin-jsdoc[22m
@@ -509,7 +509,7 @@ Could not resolve dependency:
   [34mdev[39m eslint-plugin-jsdoc@"^22.1.0" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, no current edge, idk > explain with no color, depth of 6 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, no current edge, idk > explain with no color, depth of 6 1`] = `
 While resolving: eslint@7.22.0
 Found: peer eslint@"^6.0.0" from eslint-plugin-jsdoc@22.2.0
 node_modules/eslint-plugin-jsdoc
@@ -521,7 +521,7 @@ node_modules/eslint-plugin-jsdoc
   dev eslint-plugin-jsdoc@"^22.1.0" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, no current edge, idk > report from color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, no current edge, idk > report from color 1`] = `
 # npm resolution error report
 
 While resolving: eslint@7.22.0
@@ -539,7 +539,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, no current edge, idk > report with color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, no current edge, idk > report with color 1`] = `
 While resolving: eslint@7.22.0
 Found: [95mpeer[39m eslint@"^6.0.0" from eslint-plugin-jsdoc@22.2.0[2m[22m
 [2mnode_modules/eslint-plugin-jsdoc[22m
@@ -555,7 +555,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic no current node, no current edge, idk > report with no color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > no current node, no current edge, idk > report with no color 1`] = `
 While resolving: eslint@7.22.0
 Found: peer eslint@"^6.0.0" from eslint-plugin-jsdoc@22.2.0
 node_modules/eslint-plugin-jsdoc
@@ -571,7 +571,7 @@ this command with --force or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic withShrinkwrap > explain with color, depth of 2 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > withShrinkwrap > explain with color, depth of 2 1`] = `
 While resolving: @isaacs/peer-dep-cycle-b@1.0.0
 Found: @isaacs/peer-dep-cycle-c@2.0.0[2m[22m
 [2mnode_modules/@isaacs/peer-dep-cycle-c[22m
@@ -584,7 +584,7 @@ Could not resolve dependency:
   [2mnode_modules/@isaacs/peer-dep-cycle-a[22m
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic withShrinkwrap > explain with no color, depth of 6 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > withShrinkwrap > explain with no color, depth of 6 1`] = `
 While resolving: @isaacs/peer-dep-cycle-b@1.0.0
 Found: @isaacs/peer-dep-cycle-c@2.0.0
 node_modules/@isaacs/peer-dep-cycle-c
@@ -598,7 +598,7 @@ node_modules/@isaacs/peer-dep-cycle-b
     @isaacs/peer-dep-cycle-a@"1.x" from the root project
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic withShrinkwrap > report from color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > withShrinkwrap > report from color 1`] = `
 # npm resolution error report
 
 While resolving: @isaacs/peer-dep-cycle-b@1.0.0
@@ -618,7 +618,7 @@ this command with --no-strict-peer-deps, --force, or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic withShrinkwrap > report with color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > withShrinkwrap > report with color 1`] = `
 While resolving: @isaacs/peer-dep-cycle-b@1.0.0
 Found: @isaacs/peer-dep-cycle-c@2.0.0[2m[22m
 [2mnode_modules/@isaacs/peer-dep-cycle-c[22m
@@ -636,7 +636,7 @@ this command with --no-strict-peer-deps, --force, or --legacy-peer-deps
 to accept an incorrect (and potentially broken) dependency resolution.
 `
 
-exports[`test/lib/utils/explain-eresolve.js TAP basic withShrinkwrap > report with no color 1`] = `
+exports[`test/lib/utils/explain-eresolve.js > TAP > basic > withShrinkwrap > report with no color 1`] = `
 While resolving: @isaacs/peer-dep-cycle-b@1.0.0
 Found: @isaacs/peer-dep-cycle-c@2.0.0
 node_modules/@isaacs/peer-dep-cycle-c
