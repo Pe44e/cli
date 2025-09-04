@@ -76,6 +76,7 @@ const mocks = {
   '{ROOT}/package.json': { version: '1.0.0' },
   which: async () => '/path/to/git',
   cacache: {
+    ...require('cacache'),
     verify: () => {
       return { badContentCount: 0, reclaimedCount: 0, missingContent: 0, verifiedContent: 0 }
     },
@@ -472,6 +473,7 @@ t.test('cacache badContent', async t => {
     mocks: {
       ...mocks,
       cacache: {
+        ...require('cacache'),
         verify: async () => {
           return { badContentCount: 1, reclaimedCount: 0, missingContent: 0, verifiedContent: 2 }
         },
@@ -495,6 +497,7 @@ t.test('cacache reclaimedCount', async t => {
     mocks: {
       ...mocks,
       cacache: {
+        ...require('cacache'),
         verify: async () => {
           return { badContentCount: 0, reclaimedCount: 1, missingContent: 0, verifiedContent: 2 }
         },
@@ -518,6 +521,7 @@ t.test('cacache missingContent', async t => {
     mocks: {
       ...mocks,
       cacache: {
+        ...require('cacache'),
         verify: async () => {
           return { badContentCount: 0, reclaimedCount: 0, missingContent: 1, verifiedContent: 2 }
         },
