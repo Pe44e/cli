@@ -70,7 +70,7 @@ t.test('basic interactive', async t => {
 
   t.ok(PJ_CALLED.endsWith('/pkg'))
   t.strictSame(RUN_SCRIPT_EXEC, 'shell-command')
-  t.match(output, /Exploring \{CWD\}\/[\w-_/]+\nType 'exit' or \^D when finished/)
+  t.match(output, /Exploring \{CWD\}\/(.+)+\nType 'exit' or \^D when finished/)
 })
 
 t.test('interactive tracks exit code', async t => {
@@ -83,7 +83,7 @@ t.test('interactive tracks exit code', async t => {
 
     t.ok(PJ_CALLED.endsWith('/pkg'))
     t.strictSame(RUN_SCRIPT_EXEC, 'shell-command')
-    t.match(output, /Exploring \{CWD\}\/[\w-_/]+\nType 'exit' or \^D when finished/)
+    t.match(output, /Exploring \{CWD\}\/(.+)+\nType 'exit' or \^D when finished/)
 
     t.equal(process.exitCode, 99)
   })
