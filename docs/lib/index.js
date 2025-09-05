@@ -14,11 +14,13 @@ const TAGS = {
 }
 
 const assertPlaceholder = (src, path, placeholder) => {
+  /* c8 ignore start - covered in istanbul not not in the c8 swap */
   if (!src.includes(placeholder)) {
     throw new Error(
       `Cannot replace ${placeholder} in ${path} due to missing placeholder`
     )
   }
+  /* c8 ignore stop */
   return placeholder
 }
 

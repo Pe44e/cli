@@ -40,8 +40,10 @@ function transformHTML (
       case 'version':
         return version
 
+      /* c8 ignore start - covered in istanbul not not in the c8 swap */
       default:
         throw new Error(`warning: unknown token '${token}' in ${path}`)
+      /* c8 ignore stop */
     }
   })
 
@@ -62,7 +64,7 @@ function transformHTML (
 
       if (url.startsWith('/')) {
         const childDepth = path.split('/').length - 1
-        const prefix = childDepth > 0 ? '../'.repeat(childDepth) : './'
+        const prefix = childDepth > 0 ? '../'.repeat(childDepth) : /* c8 ignore start - covered in istanbul not not in the c8 swap */ './' /* c8 ignore stop */
 
         url = url.replace(/^\//, prefix)
 

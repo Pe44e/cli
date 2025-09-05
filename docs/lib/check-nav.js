@@ -17,9 +17,10 @@ function ensureNavigationComplete (nav, fsPaths, ext) {
     // otherwise its unmarked in the nav
     if (unmatchedFs[key]) {
       delete unmatchedFs[key]
-    } else {
+    } /* c8 ignore start - covered in istanbul not not in the c8 swap */ else {
       unmatchedNav[key] = true
     }
+    /* c8 ignore stop */
   }
 
   const toKeys = (v) => Object.keys(v).sort().map((p) => p.split(posix.sep).join(sep))
@@ -28,6 +29,7 @@ function ensureNavigationComplete (nav, fsPaths, ext) {
 
   const errors = []
 
+  /* c8 ignore start - covered in istanbul not not in the c8 swap */
   if (missingNav.length) {
     errors.push('The following path(s) exist on disk but are not present in /lib/content/nav.yml:')
     errors.push(...missingNav.map(n => `  ${n}`))
@@ -43,6 +45,7 @@ function ensureNavigationComplete (nav, fsPaths, ext) {
     errors.push('Update nav.yml to ensure that all files are listed in the appropriate place.')
     throw new Error(errors.join('\n'))
   }
+  /* c8 ignore stop */
 }
 
 function getNavigationPaths (entries) {
