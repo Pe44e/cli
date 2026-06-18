@@ -129,6 +129,23 @@ t.test('publish strips patchedDependencies from the registry manifest', async t 
   t.ok(ret, 'publish succeeded with patchedDependencies stripped')
 })
 
+t.test('fails when publishing a package with packageExtensions', async t => {
+  const { publish } = t.mock('..')
+  // no registry interceptor: the publish must fail before any request is made
+  const manifest = {
+    name: 'libnpmpublish-test',
+    version: '1.0.0',
+    description: 'test libnpmpublish package',
+    packageExtensions: { 'foo@1': { dependencies: { bar: '^1.0.0' } } },
+  }
+
+  await t.rejects(
+    publish(manifest, tarData, { ...opts, npmVersion: null }),
+    { code: 'EPACKAGEEXTENSIONS', message: /must not be published/ },
+    'refuses to publish a package containing packageExtensions'
+  )
+})
+
 t.test('scoped publish', async t => {
   const { publish } = t.mock('..')
   const registry = new MockRegistry({
